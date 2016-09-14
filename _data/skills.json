@@ -11,14 +11,14 @@
               "name": "CSS/CSS3",
               "score": 100
             }, {
-                "name": "Javascript(ES5/ES6)",
+                "name": "Javascript/ES6",
                 "score": 80
             }, {
                 "name": "PHP/MySQL",
                 "score": 75
             }, {
-                "name": "Nodejs",
-                "score": 60
+                "name": "Nodejs/NoSQL",
+                "score": 55
             }, {
                 "name": "Python",
                 "score": 15

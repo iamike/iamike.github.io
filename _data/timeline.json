@@ -25,8 +25,8 @@
           "taskE": "Front-end Developer"
         },
         {
-          "taskC": "前端开发(那年代叫美工)",
-          "taskE": "Front-end Developer"
+          "taskC": "设计指导",
+          "taskE": "Creative team leader"
         },
         {
           "taskC": "公司因经营不善，你懂的",
@@ -80,6 +80,10 @@
         {
           "taskC": "前端开发",
           "taskE": "Just front-end developer"
+        },
+        {
+          "taskC": "全是微信H5项目",
+          "taskE": "H5 project for wechat"
         }
       ]
     },
@@ -89,16 +93,16 @@
       "end": "2016-5-25",
       "description": [
         {
-          "taskC": "策划项目",
-          "taskE": "Project Planning"
-        },
-        {
-          "taskC": "项目技术咨询",
-          "taskE": "Technology consulting"
+          "taskC": "策划项目, 技术咨询",
+          "taskE": "Project planning, tech consulting"
         },
         {
           "taskC": "项目具体实施",
-          "taskE": "Developing"
+          "taskE": "Developing (both back-end and front-end)"
+        },
+        {
+          "taskC": "备注: 项目都是和微信开发有关的东西",
+          "taskE": "PS: Always Wechat related hybrid mobile application"
         }
       ]
     },
@@ -109,7 +113,7 @@
       "description": [
         {
           "taskC": "创办了自己的工作室",
-          "taskE": "Setup a company of my own"
+          "taskE": "Established a company of my own"
         },
         {
           "taskC": "锻炼身体",
@@ -120,12 +124,8 @@
           "taskE": "Relaxing"
         },
         {
-          "taskC": "旅游",
-          "taskE": "Traveling"
-        },
-        {
           "taskC": "韬光养晦",
-          "taskE": "Self learning"
+          "taskE": "Self learning, researching..."
         }
       ]
     }

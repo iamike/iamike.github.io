@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Mike's Profile
-tagline: 简历
+title: Mike's CV
+tagline: 戴俊的简历
 group: navigation
 ---
 {% include JB/setup %}
@@ -11,52 +11,22 @@ group: navigation
 	<div class="col-md-10 col-xs-8">
 		<div class="well talkbox right">
 			<div class="arrow"></div>
-			<p class="lead">An <abbr title="I get a lot experience at Nextdigital" class="initialism">8+ years</abbr> experiences front-end developer that passionate about research technique and life. </p>
+			<p>An <abbr title="I get a lot experience at Nextdigital" class="initialism">8+ years</abbr> experiences front-end developer that passionate about research technique and life. </p>
 			<p>一个有着8年以上前端开发工作经验。 喜欢研究各种最新技术。 热爱生活的一个前端开发。</p>
-			<p class="lead">Recent years, digital technology is developing rapidly. The boundaries between back-end and front-end are become blurring. Now, aiming to be a Full-Stack developer...</p>
+			<p>For recent years, rapidly developed digital technology make the boundaries between back-end and front-end very blurred. So, aiming to be a Full-Stack developer...</p>
 			<p>随着近些年来技术的发展，前端和后端技术的结合愈加紧密， 正立志成为一名合格的全栈开发...</p>
 		</div>
 	</div>
 </div>
 
 <h3><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Ability Describe: <small>能力描述</small></h3>
-<ol>
+<ol class="assets">
+	{% for item in site.data.assets.items %}
 	<li>
-		<p>I know how to markup HTML/HTML5 tags correctly and semanticly. And I also have patient to play with WCAG standards. </p>
-		<p>能充分理解HTML/HTML5，并正确的使用他们。如果你对WCAG标准也有兴趣，我也能耐心的实现。</p>
+		<p>{{item.en}}</p>
+		<p>{{item.ch}}</p>
 	</li>
-	<li>
-		<p>I using Grunt/Gulp to manage/optimize front-end working process. </p>
-		<p>会使用Grunt/Gulp 来管理/优化前端开发流程。</p>
-	</li>
-	<li>
-		<p>Not only coding OOP style for PHP/JavaScript, but also organize the Less/Scss efficiently.</p>
-		<p>对像化思维方式编写代码PHP/JS，并藉此将sass/less编译出高效的css. </p>
-	</li>
-	<li>
-		<p>Familiar the technology that jump outside of <abbr title="中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知" class="initialism">GFW</abbr>. Cloud service like Firebase/Codio, MVC framework like Angularjs/Laravel, RESTful API like google/facebook/Wechat,etc.</p>
-		<p>熟悉国外的一些先进技术: Firebase/Codio之类的云端服务, Angularjs/Laravel之类的MVC框架, google/facebook/Wechat之类的RESTful api.</p>
-	</li>
-	<li>
-		<p>I like develop responsive website. Developed a lot of projects that using SVG/CANVAS .</p>
-		<p>喜欢开发响应式网站。用过svg/canvas开发过一些项目。</p>
-	</li>
-	<li>
-		<p>
-			Not just limted in Front-end, I also coding at Back-end side, favorite PHP, curious Python.
-		</p>
-		<p>
-			不仅仅前端，我也会写后端代码, 比较喜欢PHP, 对Python也有兴趣。
-		</p>
-	</li>
-	<li>
-		<p>I write comment, and fix bugs in a strict way.</p>
-		<p>我写注释, 对bug比较严谨。</p>
-	</li>
-	<li>
-		<p>Even can design, both for web and print. </p>
-		<p>甚至会设计，不管是平面的还是数码领域。</p>
-	</li>
+	{% endfor %}
 </ol>
 
 <h3><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Skill Matrix<sup>2016</sup>: <small>技能表<sup>2016</sup></small></h3>
@@ -73,13 +43,13 @@ group: navigation
 					<p>{{ skillDetail.name }}</p>
 					<div class="progress">
 						<div class="progress-bar
-						{% if skillDetail.score >= 80 %}
-						progress-bar-success
-						{% elsif skillDetail.score >= 60 %}
-						progress-bar-warning
-						{% elsif skillDetail.score >= 0 %}
-						progress-bar-danger
-						{% endif %}
+								{% if skillDetail.score >= 80 %}
+									progress-bar-success
+								{% elsif skillDetail.score >= 60 %}
+									progress-bar-warning
+								{% elsif skillDetail.score >= 0 %}
+									progress-bar-danger
+								{% endif %}
 						" role="progressbar" aria-valuenow="{{ skillDetail.score }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ skillDetail.score }}%">
 							<span class="sr-only">{{ skillDetail.score }}% Complete</span>
 						</div>
@@ -92,18 +62,21 @@ group: navigation
 	{% endfor %}
 </div>
 
-<h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Working Experience: <small>工作经历</small> </h3>
-
+<h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Experience: <small>经历</small> </h3>
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h4 class="text-center">Short Brief 前言综述</h4>
+      <h4 class="text-center">Biography <small>传记</small></h4>
 			<p>
-				After graduation, I didn't follow the major. I don't want to be an accountant. For I am interested digital world. I decide to go a different path. Good English foudation allow me understanding the heavy tech-spec, give a lot chance to fixed the complicated problems, dig the solution in google. Technology will not stop the steps, so am I.
+				After graduation, I didn't follow the major. I don't want to be an accountant. For I am interested digital world. I decide to go a different path. Good English foudation allow me understanding the heavy tech-specs, give a lot chance to fixed the complicated problems, dig the solution in google. Technology will not stop the steps, so am I.
 			</p>
       <p>
-				毕业后并没有从事所学的会计专业，对计算机感兴趣的我，选择走上了一条不同的路径。我2003毕业的我们和计算机或者说互联网行业有着不解之缘。从一开始搜索着怎么使用Photoshop，到如今探索着成为一名全栈开发。我始终坚定认真对待自己的每一份工作，每一个项目。
+				毕业后并没有从事所学的会计专业，对计算机感兴趣的我，选择走上了一条不同的路径。我2003毕业的我们和计算机或者说互联网行业有着不解之缘。从一开始搜索着怎么使用Photoshop，到如今探索着成为一名全栈开发。
       </p>
+			<h4 class="text-center">Projects <small>旧目</small></h4>
+			<p>I take seriously for every projects. It maybe not good becasue of some reason from your eyes.</p>
+			<p>我始终坚定认真对待自己的每一个项目。如果您有兴趣了解我以前做过的项目，请查看详细页</p>
+			<h4 class="text-center">Timeline <small>时间轴</small></h4>
       <ul class="timeline">
 				{% for period in site.data.timeline.period reversed %}
 				<li class = "{% cycle '', 'timeline-inverted' %}">

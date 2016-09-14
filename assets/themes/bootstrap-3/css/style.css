@@ -17,6 +17,9 @@
 h1, h2, h3, h4 {
   color: #f22430;
 }
+h1{
+  font-size: 30px
+}
 #footer {
   background-color: #fdcd60;
 }
@@ -77,6 +80,16 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/*assets*/
+ol.assets li {
+  padding-bottom: 10px;
+}
+ol.assets p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/*skills  */
 .skill-matrix p{
   margin-bottom: 0px;
 }
