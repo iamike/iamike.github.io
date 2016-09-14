@@ -2,17 +2,17 @@
     "category": [{
             "name": "Core Expertise",
             "detail": [{
-              "name": "Javascript(ES5/ES6)",
-              "score": 80
-            }, {
                 "name": "XHTML/HTML5",
                 "score": 100
             }, {
-                "name": "PHP/MySQL",
-                "score": 60
+                "name": "LESS/SCSS/CSS/CSS3",
+                "score": 100
             }, {
-                "name": "LESS/SCSS/CSS2/CSS3",
-                "score": 90
+                "name": "Javascript(ES5/ES6)",
+                "score": 80
+            }, {
+                "name": "PHP/MySQL",
+                "score": 75
             }, {
                 "name": "Nodejs",
                 "score": 60
@@ -44,35 +44,33 @@
         }, {
             "name": "Scaffolding Tools",
             "detail": [{
-                    "name": "Bootstrap",
-                    "score": 100
-                }, {
-                    "name": "Foundation",
-                    "score": 80
-                }, {
-                    "name": "Angular",
-                    "score": 60
-                }, {
-                    "name": "Backbone",
-                    "score": 80
-                }, {
-                    "name": "Ionic",
-                    "score": 50
-                }, {
-                    "name": "jQuery/jQuery Mobile",
-                    "score": 75
-                },
-                {
-                    "name": "CreateJS",
-                    "score": 65
-                }, {
-                    "name": "Yeoman",
-                    "score": 100
-                }, {
-                    "name": "Cordova",
-                    "score": 65
-                }
-            ]
+                "name": "Bootstrap",
+                "score": 100
+            }, {
+                "name": "Foundation",
+                "score": 80
+            }, {
+                "name": "Angular",
+                "score": 60
+            }, {
+                "name": "Backbone",
+                "score": 80
+            }, {
+                "name": "Ionic",
+                "score": 50
+            }, {
+                "name": "jQuery/jQuery Mobile",
+                "score": 75
+            }, {
+                "name": "CreateJS",
+                "score": 65
+            }, {
+                "name": "Yeoman",
+                "score": 100
+            }, {
+                "name": "Cordova",
+                "score": 65
+            }]
         }, {
             "name": "Tasking (aka Build) Tools",
             "detail": [{
@@ -159,6 +157,18 @@
             }, {
                 "name": "sublimeText",
                 "score": 80
+            }]
+        }, {
+            "name": "VCS",
+            "detail": [{
+                "name": "Git",
+                "score": 90
+            }, {
+                "name": "Subversion",
+                "score": 70
+            }, {
+                "name": "Team Foundation Server",
+                "score": 90
             }]
         }
 
