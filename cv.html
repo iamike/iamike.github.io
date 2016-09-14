@@ -12,10 +12,11 @@ group: navigation
 <div class="row">
 	<div class="col-md-2 col-xs-4"><img src="/media/mike.jpg" alt="My photo" class="img-circle img-responsive"></div>
 	<div class="col-md-10 col-xs-8">
-		<div class="well">
+		<div class="well talkbox right">
+			<div class="arrow"></div>
 			<p class="lead">An <abbr title="I get a lot experience at Nextdigital" class="initialism">8+ years</abbr> experiences front-end developer that passionate about research technique and life. </p>
 			<p>一个有着8年以上前端开发工作经验。 喜欢研究各种最新技术。 热爱生活的一个前端开发。</p>
-			<p>Recent years, digital technology is developing rapidly. The boundaries between back-end and front-end are become blurring. Now, he is aiming to be a Full-Web-Stack developer...</p>
+			<p class="lead">Recent years, digital technology is developing rapidly. The boundaries between back-end and front-end are become blurring. Now, aiming to be a Full-Stack developer...</p>
 			<p>随着近些年来技术的发展，前端和后端技术的结合愈加紧密， 正立志成为一名合格的全栈开发...</p>
 		</div>
 	</div>
@@ -26,7 +27,7 @@ group: navigation
 <h3><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Ability Describe: <small>能力描述</small></h3>
 <ol>
 	<li>
-		<p>I know how to markup HTML/HTML5 tags semanticly and correctly. And I also have patient to play with WCAG standards. </p>
+		<p>I know how to markup HTML/HTML5 tags correctly and semanticly. And I also have patient to play with WCAG standards. </p>
 		<p>能充分理解HTML/HTML5，并正确的使用他们。如果你对WCAG标准也有兴趣，我也能耐心的实现。</p>
 	</li>
 	<li>
@@ -34,163 +35,59 @@ group: navigation
 		<p>会使用Grunt/Gulp 来管理/优化前端开发流程。</p>
 	</li>
 	<li>
-		<p>I code javascript and css/less/sass in an Object Way. </p>
-		<p>对像化思维方式编写javascript，我同样会以sass/less编译出高效率的css. </p>
+		<p>Not only coding OOP style for PHP/JavaScript, but also organize the Less/Scss efficiently.</p>
+		<p>对像化思维方式编写代码PHP/JS，并藉此将sass/less编译出高效的css. </p>
 	</li>
 	<li>
-		<p>I Familiar the technology that jump outside of <abbr title="中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知" class="initialism">GFW</abbr>. Cloud service like Firebase/Codio, MVC framework like angularjs/vuejs, restful api like google, facebook, twiitter, etc.</p>
-		<p>熟悉国外的一些先进技术: Firebase/Codio之类的云端服务,  angularjs/laravel之类的前后端MVC框架, google/facebook/twitter之类的restful api.</p>
+		<p>Familiar the technology that jump outside of <abbr title="中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知" class="initialism">GFW</abbr>. Cloud service like Firebase/Codio, MVC framework like Angularjs/Laravel, RESTful API like google/facebook/Wechat,etc.</p>
+		<p>熟悉国外的一些先进技术: Firebase/Codio之类的云端服务, Angularjs/Laravel之类的MVC框架, google/facebook/Wechat之类的RESTful api.</p>
 	</li>
 	<li>
-		<p>I like develop responsive website that can live in SAAS. Also developed the projects that using SVG/CANVAS.</p>
+		<p>I like develop responsive website. Developed a lot of projects that using SVG/CANVAS .</p>
 		<p>喜欢开发响应式网站。用过svg/canvas开发过一些项目。</p>
 	</li>
 	<li>
 		<p>
-			I also coding at back-end side, not just limted in Front-end. Favorite is PHP, curious to Python.
+			Not just limted in Front-end, I also coding at Back-end side, favorite PHP, curious Python.
 		</p>
 		<p>
 			不仅仅前端，我也会写后端代码, 比较喜欢PHP, 对Python也有兴趣。
 		</p>
 	</li>
 	<li>
-		<p>I write comment/readme, and fix bugs in a strict way.</p>
-		<p>我写注释，对bug时比较严谨。</p>
+		<p>I write comment, and fix bugs in a strict way.</p>
+		<p>我写注释, 对bug比较严谨。</p>
 	</li>
 	<li>
-		<p>I can design, both for web and print. </p>
+		<p>Even can design, both for web and print. </p>
 		<p>甚至会设计，不管是平面的还是数码领域。</p>
 	</li>
 </ol>
-<h3>Skill Matrix - v.2016 <small>技能表</small></h3>
+<h3>Skill Matrix - v.2016: <small>技能表 - v.2016</small></h3>
+
 <div class="row skill-matrix">
-	<div class="col-xs-6">
+	{% for skillCategory in site.data.skills.category %}
+	<div class="item">
 		<div class="panel panel-default">
 		  <div class="panel-heading">
-		    <h3 class="panel-title">Core Expertise</h3>
+		    <h3 class="panel-title">{{ skillCategory.name }}</h3>
 		  </div>
 			<ul class="list-group">
+				{% for skillDetail in skillCategory.detail %}
 			  <li class="list-group-item">
-					<p>PHP, MySql</p>
+					<p>{{ skillDetail.name }}</p>
 					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-							<span class="sr-only">40% Complete (success)</span>
+						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="{{ skillDetail.score }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ skillDetail.score }}%">
+							<span class="sr-only">{{ skillDetail.score }}% Complete</span>
 						</div>
 					</div>
 				</li>
-				<li class="list-group-item">
-					<p>PHP, MySql</p>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-							<span class="sr-only">40% Complete (success)</span>
-						</div>
-					</div>
-				</li>
-				<li class="list-group-item">
-					<p>PHP, MySql</p>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-							<span class="sr-only">40% Complete (success)</span>
-						</div>
-					</div>
-				</li>
+				{% endfor %}
 			</ul>
 		</div>
 	</div>
-
+	{% endfor %}
 </div>
-
-
-<div id="pl-25">
-    <div class="panel-grid" id="pg-25-0">
-        <div class="panel-grid-cell" id="pgc-25-0-0">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-0-0-0" data-index="0">
-                <h3 class="widget-title"><i class="linecon-params icon"></i>Core Expertise</h3>
-                <div class="skills_widget crum_start_animation"><label>PHP, MySql<span class="skill-percent">96<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 96%"></span></div><label>XHTML, HTML5, CSS, CSS3<span class="skill-percent">95<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 95%"></span></div><label>javaScript, jQuery, Ajax, JS Animation<span class="skill-percent">93<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 93%"></span></div><label>Web and Graphics Design<span class="skill-percent">94<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 94%"></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="panel-grid" id="pg-25-1">
-        <div class="panel-grid-cell" id="pgc-25-1-0">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-1-0-0" data-index="1">
-                <h3 class="widget-title"><i class="linecon-params icon"></i>Content Management System (CMS)</h3>
-                <div class="skills_widget crum_start_animation"><label>WordPress<span class="skill-percent">94<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 94%"></span></div><label>Joomla!<span class="skill-percent">91<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 91%"></span></div><label>Drupal<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div><label>ExpressionEngine<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div>
-                </div>
-            </div>
-        </div>
-        <div class="panel-grid-cell" id="pgc-25-1-1">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-1-1-0" data-index="2">
-                <h3 class="widget-title"><i class="linecon-params icon"></i>E-commerce</h3>
-                <div class="skills_widget crum_start_animation"><label>Magento<span class="skill-percent">95<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 95%"></span></div><label>Virtumart<span class="skill-percent">94<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 94%"></span></div><label>Prestashop<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div><label>Woocommerce, others<span class="skill-percent">91<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 91%"></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="panel-grid" id="pg-25-2">
-        <div class="panel-grid-cell" id="pgc-25-2-0">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-2-0-0" data-index="3">
-                <h3 class="widget-title"><i class="linecon-params icon"></i> Mobile-App, Mobile Web</h3>
-                <div class="skills_widget crum_start_animation"><label>Responsive Web Design<span class="skill-percent">96<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 96%"></span></div><label>Phone Gap<span class="skill-percent">93<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 93%"></span></div><label>Android App<span class="skill-percent">92<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 92%"></span></div><label>Iphone App<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="panel-grid" id="pg-25-3">
-        <div class="panel-grid-cell" id="pgc-25-3-0">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-3-0-0" data-index="4">
-                <h3 class="widget-title"><i class="linecon-params icon"></i>Php Framework</h3>
-                <div class="skills_widget crum_start_animation"><label>CodeIgniter<span class="skill-percent">95<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 95%"></span></div><label>Symfony<span class="skill-percent">92<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 92%"></span></div><label>Zend Framework<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div><label>Yii, Laravel, Others<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div>
-                </div>
-            </div>
-        </div>
-        <div class="panel-grid-cell" id="pgc-25-3-1">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-3-1-0" data-index="5">
-                <h3 class="widget-title"><i class="linecon-params icon"></i>Graphics and Multimedia</h3>
-                <div class="skills_widget crum_start_animation"><label>Photoshop<span class="skill-percent">97<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 97%"></span></div><label>Illustrator<span class="skill-percent">96<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 96%"></span></div><label>Flash<span class="skill-percent">90<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 90%"></span></div><label>PowerPoint<span class="skill-percent">94<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 94%"></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="panel-grid" id="pg-25-4">
-        <div class="panel-grid-cell" id="pgc-25-4-0">
-            <div class="so-panel widget widget_skills_widget panel-first-child panel-last-child" id="panel-25-4-0-0" data-index="6">
-                <h3 class="widget-title"><i class="linecon-params icon"></i>SEO &amp; Online Marketing</h3>
-                <div class="skills_widget crum_start_animation"><label>Website On-page optimization<span class="skill-percent">95<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 95%"></span></div><label>Off-Page Optimization &amp; Back Link Creation<span class="skill-percent">94<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 94%"></span></div><label>Social Media Marketing<span class="skill-percent">93<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 93%"></span></div><label>Inbound Marketing &amp; Content Creation<span class="skill-percent">92<span>%</span></span></label>
-                    <div class="progress twelve crum_start_animation"><span class="meter" style="width: 92%"></span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-Web Development
 
 Front-End:
 HTML: 4/5
@@ -217,6 +114,103 @@ Photoshop
 Illustrator
 Flash
 <h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Working Experience: <small>工作经历</small> </h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="text-center">Zigzag Timeline Layout (and Cats)</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/1" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step One</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/2" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step Two</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/3" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step Three</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Step Three</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+        <li>
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/5" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Bonus Step</h4>
+              <h4 class="subheading">Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 <dl class="dl-horizontal">
 	<dt><a href="http://www.nextdigital.com">Next Digital</a>:</dt>
 	<dd>
