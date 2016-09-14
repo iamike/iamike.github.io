@@ -6,11 +6,11 @@
       "end": "2005-12-31",
       "description": [
         {
-          "taskC": "前端开发",
+          "taskC": "前端开发(那年代叫美工)",
           "taskE": "Front-end Developer"
         },
         {
-          "taskC": "网站建设",
+          "taskC": "网站建设(那年代叫IT)",
           "taskE": "Website building"
         }
       ]
@@ -23,6 +23,14 @@
         {
           "taskC": "前端开发",
           "taskE": "Front-end Developer"
+        },
+        {
+          "taskC": "前端开发(那年代叫美工)",
+          "taskE": "Front-end Developer"
+        },
+        {
+          "taskC": "公司因经营不善，你懂的",
+          "taskE": "Bankrupted"
         }
       ]
     },
@@ -32,7 +40,7 @@
       "end": "2008-12-17",
       "description": [
         {
-          "taskC": "前端开发",
+          "taskC": "前端开发(那年代叫美工)",
           "taskE": "Front-end Developer"
         },
         {
@@ -114,6 +122,10 @@
         {
           "taskC": "旅游",
           "taskE": "Traveling"
+        },
+        {
+          "taskC": "韬光养晦",
+          "taskE": "Self learning"
         }
       ]
     }
