@@ -66,17 +66,12 @@ group: navigation
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-      <h4 class="text-center">Biography <small>传记</small></h4>
-			<p>
+			<!-- <p>
 				After graduation, I didn't follow the major. I don't want to be an accountant. For I am interested digital world. I decide to go a different path. Good English foudation allow me understanding the heavy tech-specs, give a lot chance to fixed the complicated problems, dig the solution in google. Technology will not stop the steps, so am I.
 			</p>
       <p>
 				毕业后并没有从事所学的会计专业，对计算机感兴趣的我，选择走上了一条不同的路径。我2003毕业的我们和计算机或者说互联网行业有着不解之缘。从一开始搜索着怎么使用Photoshop，到如今探索着成为一名全栈开发。
-      </p>
-			<h4 class="text-center">Projects <small>旧目</small></h4>
-			<p>I take seriously for every projects. It maybe not good becasue of some reason from your eyes.</p>
-			<p>我始终坚定认真对待自己的每一个项目。如果您有兴趣了解我以前做过的项目，请查看详细页</p>
-			<h4 class="text-center">Timeline <small>时间轴</small></h4>
+      </p> -->
       <ul class="timeline">
 				{% for period in site.data.timeline.period reversed %}
 				<li class = "{% cycle '', 'timeline-inverted' %}">
@@ -85,11 +80,14 @@ group: navigation
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="subheading">{{ period.name }}</h4>
-              <h4 >{{period.start}} - {{period.end}}</h4>
+              <h4 class="subheading">{{ period.name }} </h4>
+              <h4 >{{period.start}} ~ {{period.end}}</h4>
 							<hr>
             </div>
             <div class="timeline-body">
+							<a href="{{ period.site }}" target="_blank"> <i class="glyphicon glyphicon-link"></i> Website</a>
+							<a href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> My works</a>
+
 								<ul class="text-mute">
 									{% for description in period.description %}
 									<li>
