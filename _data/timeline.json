@@ -1,0 +1,121 @@
+{
+  "period": [
+    {
+      "name": "Hong Kong Financial Service Institute",
+      "start": "2003-8-1",
+      "end": "2005-12-31",
+      "description": [
+        {
+          "taskC": "前端开发",
+          "taskE": "Front-end Developer"
+        },
+        {
+          "taskC": "网站建设",
+          "taskE": "Website building"
+        }
+      ]
+    },
+    {
+      "name": "Jiejun Media",
+      "start": "2006-11-27",
+      "end": "2007-6-30",
+      "description": [
+        {
+          "taskC": "前端开发",
+          "taskE": "Front-end Developer"
+        }
+      ]
+    },
+    {
+      "name": "TalkEnglish",
+      "start": "2007-7-6",
+      "end": "2008-12-17",
+      "description": [
+        {
+          "taskC": "前端开发",
+          "taskE": "Front-end Developer"
+        },
+        {
+          "taskC": "设计",
+          "taskE": "Designer"
+        }
+      ]
+    },
+    {
+      "name": "NextDigital (now APD)",
+      "start": "2009-1-12",
+      "end": "2015-6-24",
+      "description": [
+        {
+          "taskC": "所有前端开发相关的任务",
+          "taskE": "All front-end issues, from carving template until migration with Back-end."
+        },
+        {
+          "taskC": "参与项目的设计和研发",
+          "taskE": "Cooperate with designer/project manager for the new project."
+        },
+        {
+          "taskC": "预估项目所需时间",
+          "taskE": "Estimate a project, calculator the time budget of front-end for marketing team."
+        },
+        {
+          "taskC": "修理BUG",
+          "taskE": "fixing Bugs"
+        }
+      ]
+    },
+    {
+      "name": "isobar (OMP)",
+      "start": "2015-7-13",
+      "end": "2015-10-16",
+      "description": [
+        {
+          "taskC": "前端开发",
+          "taskE": "Just front-end developer"
+        }
+      ]
+    },
+    {
+      "name": "IRIS worldwide (Shanghai Office)",
+      "start": "2015-10-26",
+      "end": "2016-5-25",
+      "description": [
+        {
+          "taskC": "策划项目",
+          "taskE": "Project Planning"
+        },
+        {
+          "taskC": "项目技术咨询",
+          "taskE": "Technology consulting"
+        },
+        {
+          "taskC": "项目具体实施",
+          "taskE": "Developing"
+        }
+      ]
+    },
+    {
+      "name": "DigitalWant or Freelancers",
+      "start": "2016-5-25",
+      "end": "today",
+      "description": [
+        {
+          "taskC": "创办了自己的工作室",
+          "taskE": "Setup a company of my own"
+        },
+        {
+          "taskC": "锻炼身体",
+          "taskE": "Physical training"
+        },
+        {
+          "taskC": "睡觉",
+          "taskE": "Relaxing"
+        },
+        {
+          "taskC": "旅游",
+          "taskE": "Traveling"
+        }
+      ]
+    }
+  ]
+}

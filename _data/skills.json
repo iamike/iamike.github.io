@@ -5,8 +5,11 @@
                 "name": "XHTML/HTML5",
                 "score": 100
             }, {
-                "name": "LESS/SCSS/CSS/CSS3",
+                "name": "LESS/SCSS",
                 "score": 100
+            }, {
+              "name": "CSS/CSS3",
+              "score": 100
             }, {
                 "name": "Javascript(ES5/ES6)",
                 "score": 80
@@ -150,7 +153,7 @@
                 "score": 65
             }]
         }, {
-            "name": "IDE",
+            "name": "IDE & enviroment",
             "detail": [{
                 "name": "ATOM",
                 "score": 80
@@ -160,7 +163,10 @@
             }, {
                 "name": "sublimeText",
                 "score": 80
-            }]
+            }, {
+              "name": "vagrant",
+              "score": 80
+              }]
         }, {
             "name": "VCS",
             "detail": [{
