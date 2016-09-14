@@ -118,6 +118,9 @@
             }, {
                 "name": "Heroku",
                 "score": 5
+            },{
+                "name": "github",
+                "score": 90
             }, {
                 "name": "Aliyun/Tecent Cloud",
                 "score": 70
