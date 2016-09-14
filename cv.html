@@ -72,7 +72,15 @@ group: navigation
 			  <li class="list-group-item">
 					<p>{{ skillDetail.name }}</p>
 					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="{{ skillDetail.score }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ skillDetail.score }}%">
+						<div class="progress-bar
+						{% if skillDetail.score >= 80 %}
+						progress-bar-success
+						{% elsif skillDetail.score >= 60 %}
+						progress-bar-warning
+						{% elsif skillDetail.score >= 0 %}
+						progress-bar-danger
+						{% endif %}
+						" role="progressbar" aria-valuenow="{{ skillDetail.score }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ skillDetail.score }}%">
 							<span class="sr-only">{{ skillDetail.score }}% Complete</span>
 						</div>
 					</div>

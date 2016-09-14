@@ -5,36 +5,32 @@
       "detail": [
         {
           "name": "PHP/MySQL",
-          "score": 50
+          "score": 60
         },
         {
           "name": "XHTML/HTML5",
-          "score": 90
+          "score": 100
         },
         {
           "name": "Javascript(ES5/ES6)",
           "score": 80
         },
         {
-          "name": "nodejs",
-          "score": 70
+          "name": " Nodejs",
+          "score": 60
         },
         {
-          "name": "FE-Workflow(Grunt/Gulp)",
-          "score": 80
-        },
-        {
-          "name": "python",
+          "name": "Python",
           "score": 15
         },
         {
           "name": "LESS/SCSS",
-          "score": 85
+          "score": 90
         }
       ]
     },
     {
-      "name": "Content Management System(CMS)",
+      "name": "Content Management System",
       "detail": [
         {
           "name": "Joomla",
@@ -63,6 +59,59 @@
       ]
     },
     {
+      "name": "Scaffolding Tools",
+      "detail":[
+        {
+          "name": "Angular",
+          "score": 60
+        },
+        {
+          "name": "Bootstrap",
+          "score": 100
+        },
+        {
+          "name": "Backbone",
+          "score": 70
+        },
+        {
+          "name": "Ionic",
+          "score": 50
+        },
+        {
+          "name": "jQuery Mobile",
+          "score": 75
+        },
+        {
+          "name": "Foundation",
+          "score": 80
+        },
+        {
+          "name": "CreateJS",
+          "score": 65
+        },
+        {
+          "name": "Yeoman",
+          "score": 100
+        },
+        {
+          "name": "Cordova",
+          "score": 65
+        }
+      ]
+    },
+    {
+      "name": "Tasking (aka Build) Tools",
+      "detail":[
+        {
+          "name": "Gulp",
+          "score": 75
+        },{
+          "name": "Grunt",
+          "score": 65
+        }
+      ]
+    },
+    {
       "name": "Framework or Full-Stack",
       "detail": [
         {
@@ -73,38 +122,10 @@
           "name": "MEAN.io",
           "score": 30
         },
-        {
-          "name": "Angular",
-          "score": 60
-        },
+
         {
           "name": "Django",
           "score": 15
-        }
-      ]
-    },
-    {
-      "name": "Graphics and Multimedia",
-      "detail": [
-        {
-          "name": "Photoshop",
-          "score": 97
-        },
-        {
-          "name": "Illustrator",
-          "score": 80
-        },
-        {
-          "name": "Flash(Animate CC)",
-          "score": 75
-        },
-        {
-          "name": "AnimateEdge CC",
-          "score": 40
-        },
-        {
-          "name": "Indesign",
-          "score": 60
         }
       ]
     },
@@ -132,10 +153,53 @@
           "score": 5
         },
         {
-          "name": "Aliyun",
+          "name": "Aliyun/Tecent Cloud",
           "score": 70
         }
       ]
+    },
+    {
+      "name": "Graphics and Multimedia",
+      "detail": [
+        {
+          "name": "Photoshop",
+          "score": 97
+        },
+        {
+          "name": "Illustrator",
+          "score": 80
+        },
+        {
+          "name": "Flash/Animate CC",
+          "score": 75
+        },
+        {
+          "name": "AnimateEdge CC",
+          "score": 40
+        },
+        {
+          "name": "Indesign",
+          "score": 60
+        }
+      ]
+    },
+    {
+      "name": "Server Management",
+      "detail":[
+        {
+          "name":"Windows Server",
+          "score": 60
+        },
+        {
+          "name":"Centos 7",
+          "score": 70
+        },
+        {
+          "name":"Ubuntu",
+          "score": 65
+        }
+      ]
     }
+
   ]
 }
