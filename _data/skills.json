@@ -25,6 +25,9 @@
             "detail": [{
                 "name": "Jekyll",
                 "score": 100
+            },{
+                "name":"Hexo",
+                "score":100
             }, {
                 "name": "Joomla",
                 "score": 65
