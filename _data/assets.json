@@ -13,25 +13,25 @@
         },
 
         {
-            "en": "Familiar the technology that jump outside of <abbr title='中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知' class='initialism'>GFW</abbr>. Cloud service like Firebase/Codio, MVC framework like Angularjs/Laravel, RESTful API like google/facebook/Wechat,etc.",
+            "en": "Familiar the technology that jump outside of <abbr title='中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知' class='initialism'>GFW</abbr>: cloud platform like Firebase/Codio, MVC framework like Angularjs/Laravel, RESTful API like google/facebook/Wechat,etc.",
             "ch": "熟悉国外的一些先进技术: Firebase/Codio之类的云端服务, Angularjs/Laravel之类的MVC框架, google/facebook/Wechat之类的RESTful api."
         },
 
         {
-            "en": "I like develop responsive website. Developed a lot of projects that using SVG/CANVAS .",
-            "ch": "喜欢开发响应式网站。用过svg/canvas开发过一些项目。"
+            "en": "I like responsive website, and developed a lot of projects that using SVG/CANVAS.",
+            "ch": "喜欢响应式网站, 用过svg/canvas开发过一些项目。"
         },
 
         {
-            "en": "Not just limted in Front-end, I also coding at Back-end side, favorite PHP, curious Python.",
-            "ch": "不仅仅前端，我也会写后端代码, 比较喜欢PHP, 对Python也有兴趣。"
+            "en": "Not only Front-end, but also coding at Back-end side, favorite PHP, interested in Python and Ruby.",
+            "ch": "不仅仅前端，我也会写后端代码, 比较喜欢PHP, 对Python和Ruby也有兴趣。"
         },
 				{
-						"en": "I take care of cross browser issues, so survived from those 'IE6 age'.",
-						"ch": "我很注重兼容性, 甚至IE6也难不倒我。"
+						"en": "Take care of cross browser issues that makes me survived form those 'IE6 age'.",
+						"ch": "我很注重兼容性，甚至IE6也难不倒我。"
 				},
 				{
-						"en": "I know the importance of team working, so write comment, and fix bugs responsibly.",
+						"en": "I know the importance of team working, so write comment, and fix bugs cautiously.",
 						"ch": "我明白团队的重要性，所以写注释, 修bug都比较严谨。"
 				},
         {

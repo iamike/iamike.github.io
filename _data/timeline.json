@@ -64,15 +64,15 @@
         },
         {
           "taskC": "参与项目的设计和研发",
-          "taskE": "Cooperate with designer/project manager for the new project."
+          "taskE": "Cooperate with designer/PM for the new project."
         },
         {
-          "taskC": "预估项目所需时间",
-          "taskE": "Estimate a project, calculator the time budget of front-end for marketing team."
+          "taskC": "预估项目前端所需时间",
+          "taskE": "Estimate a project for marketing team, calculator the time-effort of Front-end."
         },
         {
           "taskC": "修理BUG",
-          "taskE": "fixing Bugs"
+          "taskE": "Fixing bugs"
         }
       ]
     },

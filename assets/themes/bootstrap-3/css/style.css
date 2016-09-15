@@ -348,6 +348,13 @@ ol.assets p {
 /* self talkbox */
 .talkbox  {
   position: relative;
+  padding: 15px;
+}
+.talkbox p {
+  margin: 0px;
+}
+.talkbox .cn {
+  padding-bottom: 5px;
 }
 .talkbox.right>.arrow {
     top: 50px;
