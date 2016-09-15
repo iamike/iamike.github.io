@@ -258,6 +258,77 @@ ol.assets p {
     box-shadow: 0 0 5px #cccccc;
 }
 
+/* self talkbox */
+.talkbox  {
+  position: relative;
+  padding: 15px;
+}
+.talkbox p {
+  margin: 0px;
+}
+.talkbox .cn {
+  padding-bottom: 5px;
+}
+.talkbox.right>.arrow {
+    top: 50px;
+    left: -11px;
+    margin-top: -11px;
+    border-right-color: #999;
+    border-right-color: rgba(0,0,0,.25);
+    border-left-width: 0;
+}
+.talkbox>.arrow {
+    border-width: 11px;
+}
+.talkbox>.arrow, .talkbox>.arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.talkbox.right>.arrow:after {
+    bottom: -10px;
+    left: 1px;
+    content: " ";
+    border-right-color: #eee;
+    border-left-width: 0;
+}
+.talkbox>.arrow:after {
+    content: "";
+    border-width: 10px;
+}
+.talkbox>.arrow, .talkbox>.arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+/* Masonry */
+.skill-matrix *, .skill-matrix *:before, .skill-matrix *:after {box-sizing:  border-box !important;}
+.skill-matrix {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap:1em;
+}
+
+.skill-matrix .item {
+ display: inline-block;
+ padding:  .25rem;
+ width:  100%;
+}
+
+.skill-matrix .well {
+ position:relative;
+ display: block;
+}
+
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   .timeline>li:nth-child(even) {
@@ -345,79 +416,17 @@ ol.assets p {
     display: none;
   }
 }
-/* self talkbox */
-.talkbox  {
-  position: relative;
-  padding: 15px;
-}
-.talkbox p {
-  margin: 0px;
-}
-.talkbox .cn {
-  padding-bottom: 5px;
-}
-.talkbox.right>.arrow {
-    top: 50px;
-    left: -11px;
-    margin-top: -11px;
-    border-right-color: #999;
-    border-right-color: rgba(0,0,0,.25);
-    border-left-width: 0;
-}
-.talkbox>.arrow {
-    border-width: 11px;
-}
-.talkbox>.arrow, .talkbox>.arrow:after {
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-}
-
-.talkbox.right>.arrow:after {
-    bottom: -10px;
-    left: 1px;
-    content: " ";
-    border-right-color: #eee;
-    border-left-width: 0;
-}
-.talkbox>.arrow:after {
-    content: "";
-    border-width: 10px;
-}
-.talkbox>.arrow, .talkbox>.arrow:after {
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-}
-
-/* Masonry */
-.skill-matrix *, .skill-matrix *:before, .skill-matrix *:after {box-sizing:  border-box !important;}
-.skill-matrix {
- -moz-column-width: 18em;
- -webkit-column-width: 18em;
- -moz-column-gap: 1em;
- -webkit-column-gap:1em;
-}
-
-.skill-matrix .item {
- display: inline-block;
- padding:  .25rem;
- width:  100%;
-}
-
-.skill-matrix .well {
- position:relative;
- display: block;
-}
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
+  .timeline>li:nth-child(even) {
+      height: auto;
+  }
+  .timeline>li:nth-child(odd) {
+      height: auto;
+  }
+  .timeline>li:after {
+      min-height: 0px;
+  }
   .timeline > li:nth-child(even) {
     margin-bottom: 0px;
     min-height: 0px;
