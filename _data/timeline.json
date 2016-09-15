@@ -2,8 +2,8 @@
   "period": [
     {
       "name": "Hong Kong Financial Service Institute",
-      "start": "2003-8-1",
-      "end": "2005-12-31",
+      "start": "2003/Aug/1",
+      "end": "2005/Dec/31",
       "site": "http://www.hkfsi.org",
       "description": [
         {
@@ -18,8 +18,8 @@
     },
     {
       "name": "Jiejun Media",
-      "start": "2006-11-27",
-      "end": "2007-6-30",
+      "start": "2006/Nov/27",
+      "end": "2007/Jun/30",
       "site": "#",
       "description": [
         {
@@ -38,8 +38,8 @@
     },
     {
       "name": "TalkEnglish",
-      "start": "2007-7-6",
-      "end": "2008-12-17",
+      "start": "2007-Jul-6",
+      "end": "2008-Dec-17",
       "site": "",
       "description": [
         {
@@ -54,8 +54,8 @@
     },
     {
       "name": "NextDigital (now APD)",
-      "start": "2009-1-12",
-      "end": "2015-6-24",
+      "start": "2009-Jan-12",
+      "end": "2015-Jun-24",
       "site": "http://www.apdgroup.com",
       "description": [
         {
@@ -78,8 +78,8 @@
     },
     {
       "name": "isobar (O.M.P.)",
-      "start": "2015-7-13",
-      "end": "2015-10-16",
+      "start": "2015-Jul-13",
+      "end": "2015-Oct-16",
       "site": "http://www.ompchina.com",
       "description": [
         {
@@ -94,8 +94,8 @@
     },
     {
       "name": "IRIS (Shanghai Office)",
-      "start": "2015-10-26",
-      "end": "2016-5-25",
+      "start": "2015-Oct-26",
+      "end": "2016-May-25",
       "site": "http://www.iris-worldwide.com",
       "description": [
         {
@@ -114,7 +114,7 @@
     },
     {
       "name": "DigitalWant (Freelancer)",
-      "start": "2016-5-25",
+      "start": "2016-May-25",
       "end": "today",
       "site": "http://www.digitalwant.com",
       "description": [
