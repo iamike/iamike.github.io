@@ -23,7 +23,7 @@
       "site": "#",
       "description": [
         {
-          "taskC": "前端开发",
+          "taskC": "前端开发(那年代叫美工)",
           "taskE": "Front-end Developer"
         },
         {
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "DigitalWant or Freelancers",
+      "name": "DigitalWant (Freelancer)",
       "start": "2016-5-25",
       "end": "today",
       "site": "http://www.digitalwant.com",
@@ -123,12 +123,8 @@
           "taskE": "Established a company of my own"
         },
         {
-          "taskC": "锻炼身体, 睡觉, 烹调..",
-          "taskE": "Physical training, sleeping, cooking.."
-        },
-        {
-          "taskC": "韬光养晦",
-          "taskE": "Self learning, researching..."
+          "taskC": "韬光养晦, 锻炼身体, 烹调..",
+          "taskE": "Self learning & sleeping, training, cooking.."
         }
       ]
     }
