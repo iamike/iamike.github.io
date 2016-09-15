@@ -1,0 +1,37 @@
+{
+  "category":[
+      {
+        "name": "Swimming",
+        "details": [
+          {
+            "subject":"Freestroke",
+            "level":"3.5km"
+          },
+          {
+            "subject":"Breaststroke",
+            "level":"1km"
+          },
+          {
+            "subject":"Butterfly",
+            "level":"25m"
+          }
+        ]
+      },{
+        "name": "Cooking",
+        "details": [
+          {
+            "subject":"Chinese",
+            "level":"good"
+          }
+        ]
+      },{
+        "name": "Investing",
+        "details": [
+          {
+            "subject":"China A share",
+            "level":"-4%"
+          }
+        ]
+      }
+  ]
+}

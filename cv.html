@@ -64,7 +64,7 @@ group: navigation
 </div>
 </div>
 <div class="container">
-	<h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Experience: <small>经验</small> </h3>
+	<h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Experience: <small>工作经验</small> </h3>
   <div class="row">
     <div class="col-lg-12">
       <ul class="timeline">
@@ -104,33 +104,38 @@ group: navigation
     </div>
   </div>
 </div>
-
-<h3><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Hobbies: <small>兴趣爱好</small></h3>
-	<ul class="list-group">
-	  <li class="list-group-item">
-	    <span class="badge">3km</span>
-	    Swiming(Freestroke)
-	  </li>
-	  <li class="list-group-item">
-	    <span class="badge">25m</span>
-	    Swiming(Butterfly)
-	  </li>
-	  <li class="list-group-item">
-	    <span class="badge">1km</span>
-	    Swiming(Breaststroke)
-	  </li>
-	</ul>
-
-	<h3><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact Information:</h3>
+<div class="container">
+	<h3><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Hobbies: <small>兴趣爱好</small></h3>
+	<div class="row">
+		{% for hobby in site.data.hobbies.category %}
+		<div class="col-lg-4">
+			<div class="panel panel-default ">
+			  <div class="panel-heading">{{hobby.name}}</div>
+				<ul class="list-group">
+					{% for detail in hobby.details %}
+						<li class="list-group-item">
+					    <span class="badge">{{detail.level}}</span>
+					    	{{detail.subject}}
+					  </li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+<div class="container">
+	<h3><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact Information: <small>联系方式</small></h3>
 	<address>
-	  <br>
-	  Shanghai, China<br>
-	  <abbr title="Phone">P:</abbr> (8621)3358 8703
-	  <abbr title="Mobile">M:</abbr> (8621)189 3070 6272
+		<br>
+		Shanghai, China<br>
+		<abbr title="Phone">P:</abbr> (8621)3358 8703
+		<abbr title="Mobile">M:</abbr> (8621)189 3070 6272
 
 	</address>
 
 	<address>
-	  <strong>My Email:</strong><br>
-	  <a href="mailto:dai.mike@gmail.com">dai.mike@gmail.com</a>
+		<strong>My Email:</strong><br>
+		<a href="mailto:dai.mike@gmail.com">dai.mike@gmail.com</a>
 	</address>
+</div>
