@@ -10,7 +10,7 @@ group: navigation
 	<div class="col-md-2 col-xs-4"><img src="/media/mike.jpg" alt="My photo" class="img-circle img-responsive"></div>
 	<div class="col-md-10 col-xs-8">
 		<div class="well talkbox right">
-			<div class="arrow"></div>
+			<div class="arrow hidden-print"></div>
 			<p class="en">An <abbr title="I get a lot experience at Nextdigital" class="initialism">8+ years</abbr> experiences Front-end developer that passionate about research technique and life. </p>
 			<p class="cn">一个有着8年以上前端开发工作经验。 喜欢研究各种最新技术。 热爱生活的一个前端开发。</p>
 			<p class="en">Aim to be a Full-Stack developer,  because of the rapidly developed technology make the boundary between Back-end and Front-end are blurred.</p>
@@ -40,8 +40,8 @@ group: navigation
 			<ul class="list-group">
 				{% for skillDetail in skillCategory.detail %}
 			  <li class="list-group-item">
-					<p>{{ skillDetail.name }}</p>
-					<div class="progress">
+					<p>{{ skillDetail.name }}  <span class="pull-right "><small class="visible-print-inline">Progress:</small><b class="" >{{ skillDetail.score }}%</b></span></p>
+					<div class="progress hidden-print">
 						<div class="progress-bar
 								{% if skillDetail.score >= 80 %}
 									progress-bar-success
@@ -51,7 +51,7 @@ group: navigation
 									progress-bar-danger
 								{% endif %}
 						" role="progressbar" aria-valuenow="{{ skillDetail.score }}" aria-valuemin="0" aria-valuemax="100" style="width: {{ skillDetail.score }}%">
-							<span class="sr-only">{{ skillDetail.score }}% Complete</span>
+							<span class="sr-only ">{{ skillDetail.score }}% Complete</span>
 						</div>
 					</div>
 				</li>
@@ -66,12 +66,6 @@ group: navigation
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
-			<!-- <p>
-				After graduation, I didn't follow the major. I don't want to be an accountant. For I am interested digital world. I decide to go a different path. Good English foudation allow me understanding the heavy tech-specs, give a lot chance to fixed the complicated problems, dig the solution in google. Technology will not stop the steps, so am I.
-			</p>
-      <p>
-				毕业后并没有从事所学的会计专业，对计算机感兴趣的我，选择走上了一条不同的路径。我2003毕业的我们和计算机或者说互联网行业有着不解之缘。从一开始搜索着怎么使用Photoshop，到如今探索着成为一名全栈开发。
-      </p> -->
       <ul class="timeline">
 				{% for period in site.data.timeline.period reversed %}
 				<li class = "{% cycle '', 'timeline-inverted' %}">
@@ -99,7 +93,7 @@ group: navigation
 						<hr class="visible-xs">
           </div>
 					{% if forloop.last != true %}
-						<div class="line"></div>
+						<div class="line hidden-print"></div>
 					{% endif %}
         </li>
 				{% endfor %}
@@ -107,33 +101,33 @@ group: navigation
     </div>
   </div>
 </div>
+<div class="page-break"></div>
+	<h3><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Hobbies: <small>兴趣爱好</small></h3>
+	<ul class="list-group">
+	  <li class="list-group-item">
+	    <span class="badge">3km</span>
+	    Swiming(Freestroke)
+	  </li>
+	  <li class="list-group-item">
+	    <span class="badge">25m</span>
+	    Swiming(Butterfly)
+	  </li>
+	  <li class="list-group-item">
+	    <span class="badge">1km</span>
+	    Swiming(Breaststroke)
+	  </li>
+	</ul>
 
-<h3><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Hobbies: <small>兴趣爱好</small></h3>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge">3km</span>
-    Swiming(Freestroke)
-  </li>
-  <li class="list-group-item">
-    <span class="badge">25m</span>
-    Swiming(Butterfly)
-  </li>
-  <li class="list-group-item">
-    <span class="badge">1km</span>
-    Swiming(Breaststroke)
-  </li>
-</ul>
+	<h3><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact Information:</h3>
+	<address>
+	  <br>
+	  Shanghai, China<br>
+	  <abbr title="Phone">P:</abbr> (8621)3358 8703
+	  <abbr title="Mobile">M:</abbr> (8621)189 3070 6272
 
-<h3><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Contact Information:</h3>
-<address>
-  <br>
-  Shanghai, China<br>
-  <abbr title="Phone">P:</abbr> (8621)3358 8703
-  <abbr title="Mobile">M:</abbr> (8621)189 3070 6272
+	</address>
 
-</address>
-
-<address>
-  <strong>My Email:</strong><br>
-  <a href="mailto:dai.mike@gmail.com">dai.mike@gmail.com</a>
-</address>
+	<address>
+	  <strong>My Email:</strong><br>
+	  <a href="mailto:dai.mike@gmail.com">dai.mike@gmail.com</a>
+	</address>

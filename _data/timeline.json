@@ -60,7 +60,7 @@
       "description": [
         {
           "taskC": "所有前端开发相关的任务",
-          "taskE": "All front-end issues, from carving template until migration with Back-end."
+          "taskE": "All Front-end issues, from carving template until migration with Back-end."
         },
         {
           "taskC": "参与项目的设计和研发",
@@ -84,7 +84,7 @@
       "description": [
         {
           "taskC": "前端开发",
-          "taskE": "Just front-end developer"
+          "taskE": "Just Front-end developer"
         },
         {
           "taskC": "全是微信H5项目",
@@ -104,7 +104,7 @@
         },
         {
           "taskC": "项目具体实施",
-          "taskE": "Developing (both back-end and front-end)"
+          "taskE": "Developing for both Front-end and Back-end"
         },
         {
           "taskC": "备注: 项目都是和微信开发有关的东西",
