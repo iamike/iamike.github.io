@@ -168,11 +168,11 @@ ol.assets p {
 }
 
 .timeline>li .timeline-panel {
-    position: relative;
-    float: left;
+    position: absolute;
     width: 41%;
     padding: 0 20px 20px 30px;
     text-align: right;
+    z-index: 2;
 }
 
 .timeline>li .timeline-panel:before {
@@ -192,6 +192,7 @@ ol.assets p {
 .timeline>li .timeline-image {
     z-index: 100;
     position: absolute;
+    top:0px;
     left: 50%;
     border: 7px solid #dddddd;
     border-radius: 100%;
@@ -209,9 +210,10 @@ ol.assets p {
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
     padding: 0 30px 20px 20px;
     text-align: left;
+    left: 50%;
+    margin-left: 100px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -230,6 +232,10 @@ ol.assets p {
 
 .timeline>li:last-child {
     margin-bottom: 0;
+    height: auto;
+}
+.timeline>li:last-child .timeline-panel, .timeline>li.last-child .timeline-panel {
+    position: relative;
 }
 
 .timeline .timeline-heading h4 {
@@ -421,15 +427,21 @@ ol.assets p {
         margin-left: 0px;
     }
     .timeline>li:nth-child(even) .timeline-panel {
-        width: 76%;
-        padding: 0 0 20px 0px;
-        text-align: left;
-    }
-    .timeline>li:nth-child(odd) .timeline-panel {
+        float:right;
         width: 70%;
         padding: 0 0 20px 0px;
         text-align: right;
+        position: static;
     }
+    .timeline>li:nth-child(odd) .timeline-panel {
+        float:left;
+        width: 70%;
+        padding: 0 0 20px 0px;
+        text-align: left;
+        position: static;
+
+    }
+
     .timeline>li .line {
         display: none;
     }
@@ -467,14 +479,18 @@ ol.assets p {
         margin-left: 0px;
     }
     .timeline>li:nth-child(even) .timeline-panel {
-        width: 70%;
-        padding: 0 0 20px 0px;
-        text-align: left;
-    }
-    .timeline>li:nth-child(odd) .timeline-panel {
+      position: static;
+      float: right;
         width: 70%;
         padding: 0 0 20px 0px;
         text-align: right;
+    }
+    .timeline>li:nth-child(odd) .timeline-panel {
+      position: static;
+      float: left;
+        width: 70%;
+        padding: 0 0 20px 0px;
+        text-align: left;
     }
     .timeline>li .line {
         display: none;
@@ -520,9 +536,15 @@ ol.assets p {
         left: 0px;
         margin-left: 0;
     }
+    .timeline>li .timeline-panel {
+      position: static;
+      float: left;
+      width:100%;
+    }
     .timeline>li:nth-child(even) .timeline-panel {
         width: 100%;
         padding: 0 0 20px 14px;
+        margin: 0px;
     }
     .timeline>li:nth-child(odd) .timeline-panel {
         width: 100%;
@@ -575,20 +597,22 @@ ol.assets p {
       font-size: 12px;
     }
     .timeline>li:nth-child(even), .timeline>li:nth-child(odd) {
+        position: relative;
         float: left;
         width:100%;
         height: auto;
         clear: both;
         left:0px;
-        right:0px;
+        right:auto;
         margin: 0px;
+        padding: 0px;
         font-size: 12px;
     }
     .timeline>li:before, .timeline>li:after {
         display: none;
     }
     .timeline>li .timeline-image {
-        position: absolute;;
+        position: absolute;
         margin: 0px;
         left:auto;
         right:0px;
@@ -596,12 +620,14 @@ ol.assets p {
         width: 80px;
         height: 80px;
     }
-    .timeline>li .timeline-panel,.timeline>li.timeline-inverted>.timeline-panel {
-        position: relative;
+    .timeline>li .timeline-panel,
+    .timeline>li.timeline-inverted .timeline-panel {
+        position: static;
         float: left;
         width: 100%;
         padding: 0px;
         text-align: left;
+        margin: 0px;
     }
 
 }

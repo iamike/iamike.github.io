@@ -5,6 +5,7 @@
       "start": "2003/Aug/1",
       "end": "2005/Dec/31",
       "site": "http://www.hkfsi.org",
+      "projects": "",
       "description": [
         {
           "taskC": "前端开发(那年代叫美工)",
@@ -20,7 +21,8 @@
       "name": "Jiejun Media",
       "start": "2006/Nov/27",
       "end": "2007/Jun/30",
-      "site": "#",
+      "site": "",
+      "projects": "",
       "description": [
         {
           "taskC": "前端开发(那年代叫美工)",
@@ -41,6 +43,7 @@
       "start": "2007/Jul/6",
       "end": "2008/Dec/17",
       "site": "",
+      "projects": "",
       "description": [
         {
           "taskC": "前端开发(那年代叫美工)",
@@ -57,6 +60,7 @@
       "start": "2009/Jan/12",
       "end": "2015/Jun/24",
       "site": "http://www.apdgroup.com",
+      "projects": "#",
       "description": [
         {
           "taskC": "所有前端开发相关的任务",
@@ -81,6 +85,7 @@
       "start": "2015/Jul/13",
       "end": "2015/Oct/16",
       "site": "http://www.ompchina.com",
+      "projects": "#",
       "description": [
         {
           "taskC": "前端开发",
@@ -97,6 +102,7 @@
       "start": "2015/Oct/26",
       "end": "2016/May/25",
       "site": "http://www.iris-worldwide.com",
+      "projects": "#",
       "description": [
         {
           "taskC": "策划项目, 技术咨询",
@@ -117,6 +123,7 @@
       "start": "2016/May/25",
       "end": "today",
       "site": "http://www.digitalwant.com",
+      "projects": "#",
       "description": [
         {
           "taskC": "创办了自己的工作室",

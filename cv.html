@@ -69,7 +69,7 @@ group: navigation
     <div class="col-lg-12">
       <ul class="timeline">
 				{% for period in site.data.timeline.period reversed %}
-				<li class = "{% cycle '', 'timeline-inverted' %}">
+				<li class = "{% cycle '', 'timeline-inverted' %} {% if forloop.last == true %} last {% endif %}">
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="/media/timeline/logo/{{forloop.rindex0}}.jpg" alt="">
           </div>
@@ -79,7 +79,7 @@ group: navigation
               <h4 >{{period.start}} ~ {{period.end}}</h4>
 							<hr class="hidden-xs">
             </div>
-            <div class="timeline-body">
+            <div class="timeline-body ">
 								<ul class="text-mute">
 									{% for description in period.description %}
 									<li>
@@ -88,10 +88,16 @@ group: navigation
 									</li>
 									{% endfor %}
 								</ul>
+								{% if period.site != "" or period.projects != ""%}
 								<div class="btn-group btn-group-xs hidden-print" role="group" aria-label="...">
-									<a class="btn btn-default" href="{{ period.site }}" target="_blank"> <i class="glyphicon glyphicon-link"></i> Company</a>
-									<a class="btn btn-default" href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> My works</a>
+									{% if period.site != "" %}
+											<a class="btn btn-default" href="{{ period.site }}" target="_blank"> <i class="glyphicon glyphicon-link"></i> Company</a>
+									{% endif %}
+									{% if period.projects != "" %}
+											<a class="btn btn-default" href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> Projects</a>
+									{% endif %}
 								</div>
+								{% endif %}
             </div>
 						<hr class="visible-xs">
           </div>
