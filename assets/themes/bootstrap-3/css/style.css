@@ -546,7 +546,14 @@ ol.assets p {
 
 @media print {
     .visible-print-inline {display: inline;}
-    .page-break	{ display: block; page-break-before: always; }
+    .container {
+      page-break-inside: avoid;
+    }
+    .timeline>li{
+      page-break-inside: avoid;
+
+    }
+    .page-break	{ display: block; width: 100%; page-break-before: always!important; }
     .page-header {
       margin-top: 0px;
     }
@@ -555,37 +562,46 @@ ol.assets p {
         box-shadow: none;
         border: 0px;
     }
+    .assets {
+      font-size: 12px;
+    }
     .skill-matrix .item {
         padding: 0px;
     }
     .skill-matrix .panel {
         border: 0px;
     }
+    .panel>.list-group {
+      font-size: 12px;
+    }
     .timeline>li:nth-child(even), .timeline>li:nth-child(odd) {
+        float: left;
+        width:100%;
         height: auto;
         clear: both;
         left:0px;
         right:0px;
+        margin: 0px;
+        font-size: 12px;
     }
     .timeline>li:before, .timeline>li:after {
         display: none;
     }
     .timeline>li .timeline-image {
+        position: absolute;;
+        margin: 0px;
+        left:auto;
+        right:0px;
+        top:0px;
+        width: 80px;
+        height: 80px;
+    }
+    .timeline>li .timeline-panel,.timeline>li.timeline-inverted>.timeline-panel {
         position: relative;
         float: left;
-        margin: 0px;
-        left:0px;
-        width: 100px;
-        height: 100px;
-    }
-    .timeline>li .timeline-panel {
-        position: relative;
-        float: right;
-        width: 80%;
-        padding: 0 20px 20px 30px;
+        width: 100%;
+        padding: 0px;
         text-align: left;
     }
-    section {
-      page-break-after: always;
-    }
+
 }

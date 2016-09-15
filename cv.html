@@ -5,6 +5,7 @@ tagline: 戴俊的简历
 group: navigation
 ---
 {% include JB/setup %}
+<div class="container">
 <h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Self Introduction: <small>自我介绍</small></h3>
 <div class="row">
 	<div class="col-md-2 col-xs-4"><img src="/media/mike.jpg" alt="My photo" class="img-circle img-responsive"></div>
@@ -18,7 +19,6 @@ group: navigation
 		</div>
 	</div>
 </div>
-
 <h3><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Ability Describe: <small>能力描述</small></h3>
 <ol class="assets">
 	{% for item in site.data.assets.items %}
@@ -28,7 +28,8 @@ group: navigation
 	</li>
 	{% endfor %}
 </ol>
-
+</div>
+<div class="container">
 <h3><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Skill Matrix<sup>2016</sup>: <small>技能表<sup>2016</sup></small></h3>
 <div class=" skill-matrix">
 	{% for skillCategory in site.data.skills.category %}
@@ -61,9 +62,9 @@ group: navigation
 	</div>
 	{% endfor %}
 </div>
-
-<h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Experience: <small>经历</small> </h3>
+</div>
 <div class="container">
+	<h3><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Experience: <small>经验</small> </h3>
   <div class="row">
     <div class="col-lg-12">
       <ul class="timeline">
@@ -79,8 +80,6 @@ group: navigation
 							<hr class="hidden-xs">
             </div>
             <div class="timeline-body">
-							<a href="{{ period.site }}" target="_blank"> <i class="glyphicon glyphicon-link"></i> Website</a>
-							<a href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> My works</a>
 								<ul class="text-mute">
 									{% for description in period.description %}
 									<li>
@@ -89,6 +88,10 @@ group: navigation
 									</li>
 									{% endfor %}
 								</ul>
+								<div class="btn-group btn-group-xs hidden-print" role="group" aria-label="...">
+									<a class="btn btn-default" href="{{ period.site }}" target="_blank"> <i class="glyphicon glyphicon-link"></i> Company</a>
+									<a class="btn btn-default" href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> My works</a>
+								</div>
             </div>
 						<hr class="visible-xs">
           </div>
@@ -101,8 +104,8 @@ group: navigation
     </div>
   </div>
 </div>
-<div class="page-break"></div>
-	<h3><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Hobbies: <small>兴趣爱好</small></h3>
+
+<h3><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Hobbies: <small>兴趣爱好</small></h3>
 	<ul class="list-group">
 	  <li class="list-group-item">
 	    <span class="badge">3km</span>
