@@ -38,8 +38,9 @@ group: navigation
 		  <div class="panel-heading">
 		    <h3 class="panel-title">{{ skillCategory.name }}</h3>
 		  </div>
+			{% assign skillDetails = skillCategory.detail | sort:'score' %}
 			<ul class="list-group">
-				{% for skillDetail in skillCategory.detail %}
+				{% for skillDetail in skillDetails reversed %}
 			  <li class="list-group-item">
 					<p>{{ skillDetail.name }}  <span class="pull-right "><small class="visible-print-inline">Progress:</small><b class="" >{{ skillDetail.score }}%</b></span></p>
 					<div class="progress hidden-print">
