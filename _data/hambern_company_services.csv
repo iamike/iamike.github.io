@@ -1,8 +1,0 @@
-id,"name","icon","description","published_at","created_at","updated_at"
-1,"Front-end","fa-hand-pointer-o","<p>html, css, javascript</p>",NULL,"2016-09-09 17:13:28","2016-09-15 14:43:32"
-2,"Back-end","fa-server","<p>php, nodejs, server side coding</p>",NULL,"2016-09-09 17:16:50","2016-09-15 14:43:17"
-3,"Creative","fa-eye","<p>design, look and feel..</p>",NULL,"2016-09-09 17:17:26","2016-09-15 14:43:01"
-4,"served@nextdigital","fa-cube","<p>在Nextdigital工作时</p>","2008-02-01","2016-09-15 12:36:36","2016-09-15 12:39:55"
-5,"served@isobar","fa-cube","<p>在isobar上班时</p>","2015-07-13","2016-09-15 12:41:11","2016-09-15 12:41:11"
-6,"serve@iris","fa-cube","<p>在iris上班时</p>","2015-10-28","2016-09-15 12:42:00","2016-09-15 12:42:00"
-7,"served@digitalwant","fa-cube","<p>在自己公司上班时</p>","2016-06-01","2016-09-15 12:42:40","2016-09-15 12:42:40"
