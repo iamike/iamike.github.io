@@ -12,7 +12,7 @@
             "ch": "对像化思维方式编写代码PHP/JS，并藉此将sass/less编译出高效的css. "
         },
         {
-            "en": "Familiar the technology that jump outside of <abbr title='中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知' class='initialism'>GFW</abbr>: cloud platform like Firebase/Codio, MVC framework like Angularjs/Laravel, RESTful API like google/facebook,etc.",
+            "en": "Familiar the technology that outside of <abbr title='中国的#网%络@封*锁，使得很多最新的前端技术不为国人所知' class='initialism'>GFW</abbr>: cloud platform like Firebase/Codio, MVC framework like Angularjs/Laravel, RESTful API like google/facebook,etc.",
             "ch": "熟悉国外的一些先进技术: Firebase/Codio之类的云端服务, Angularjs/Laravel之类的MVC框架, google/facebook之类的RESTful api."
         },
 
