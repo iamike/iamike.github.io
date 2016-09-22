@@ -8,11 +8,11 @@
       "projects": "",
       "description": [
         {
-          "taskC": "美工(前端开发)",
+          "taskC": "前端开发(那年代叫美工)",
           "taskE": "Front-end Developer"
         },
         {
-          "taskC": "网站建设",
+          "taskC": "网站建设(那年代叫IT)",
           "taskE": "Website building"
         }
       ]
@@ -25,12 +25,16 @@
       "projects": "",
       "description": [
         {
-          "taskC": "美工(前端开发)",
+          "taskC": "前端开发(那年代叫美工)",
           "taskE": "Front-end Developer"
         },
         {
           "taskC": "设计指导",
           "taskE": "Creative team leader"
+        },
+        {
+          "taskC": "公司因经营不善，你懂的",
+          "taskE": "Bankrupted"
         }
       ]
     },
@@ -42,7 +46,7 @@
       "projects": "",
       "description": [
         {
-          "taskC": "美工(前端开发)",
+          "taskC": "前端开发(那年代叫美工)",
           "taskE": "Front-end Developer"
         },
         {
@@ -85,7 +89,11 @@
       "description": [
         {
           "taskC": "前端开发",
-          "taskE": "Front-end developer"
+          "taskE": "Just Front-end developer"
+        },
+        {
+          "taskC": "全是微信H5项目",
+          "taskE": "H5 project for wechat"
         }
       ]
     },
@@ -103,6 +111,27 @@
         {
           "taskC": "项目具体实施",
           "taskE": "Developing for both Front-end and Back-end"
+        },
+        {
+          "taskC": "备注: 项目都是和微信开发有关的东西",
+          "taskE": "PS: Always Wechat related hybrid mobile application"
+        }
+      ]
+    },
+    {
+      "name": "DigitalWant (Freelancer)",
+      "start": "2016/May/25",
+      "end": "today",
+      "site": "http://www.digitalwant.com",
+      "projects": "http://www.digitalwant.com/project/list",
+      "description": [
+        {
+          "taskC": "创办了自己的工作室",
+          "taskE": "Established a company of my own"
+        },
+        {
+          "taskC": "韬光养晦, 锻炼身体, 烹调..",
+          "taskE": "Self learning & sleeping, training, cooking.."
         }
       ]
     }

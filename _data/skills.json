@@ -15,10 +15,10 @@
                 "score": 80
             }, {
                 "name": "PHP/MySQL",
-                "score": 75
+                "score": 80
             }, {
                 "name": "Nodejs/NoSQL",
-                "score": 55
+                "score": 70
             }, {
                 "name": "Python",
                 "score": 15
@@ -30,15 +30,15 @@
             "name": "Content Management System",
             "detail": [{
                 "name": "Jekyll",
-                "score": 100
+                "score": 70
             }, {
                 "name": "Hexo",
-                "score": 100
-            }, {
-                "name": "Joomla",
                 "score": 65
             }, {
-                "name": "October",
+                "name": "Joomla",
+                "score": 70
+            }, {
+                "name": "OctoberCMS",
                 "score": 75
             }, {
                 "name": "WordPress",
@@ -53,44 +53,51 @@
         }, {
             "name": "Scaffolding Tools",
             "detail": [{
-                "name": "Yeoman",
-                "score": 100
-            },{
                 "name": "Bootstrap",
                 "score": 100
-            },  {
+            }, {
                 "name": "Foundation",
-                "score": 80
+                "score": 100
             }, {
                 "name": "Backbone",
-                "score": 80
-            }, {
-                "name": "Angular",
-                "score": 60
+                "score": 100
             }, {
                 "name": "Ionic",
                 "score": 70
             }, {
-                "name": "jQuery/jQuery Mobile",
-                "score": 75
+                "name": "jQuery/jQuery-Mobile",
+                "score": 100
+            }]
+        }, {
+            "name": "Animate",
+            "detail": [{
+                "name": "GreenSock|GSAP",
+                "score": 100
             }, {
                 "name": "CreateJS",
-                "score": 65
-            }, {
-                "name": "Cordova",
-                "score": 65
+                "score": 75
+            }]
+        },{
+            "name": "MVC",
+            "detail": [{
+                "name": "Angular",
+                "score": 60
             }, {
                 "name": "Laravel",
                 "score": 70
+            }]
+        }, {
+            "name": "Full-stack",
+            "detail": [{
+                "name": "Django",
+                "score": 25
             }, {
                 "name": "MEAN",
                 "score": 30
-            }, {
-                "name": "Django",
-                "score": 15
             }]
+
         }, {
-            "name": "Tasking (aka Build) Tools",
+            "name": "Build Tools",
             "detail": [{
                 "name": "Gulp",
                 "score": 75
@@ -107,20 +114,14 @@
                 "name": "Firebase",
                 "score": 70
             }, {
-                "name": "Aliyun/Tecent Cloud",
+                "name": "Aliyun/Tecent",
                 "score": 70
             }, {
-                "name": "Codio",
-                "score": 65
-            }, {
                 "name": "AWS",
-                "score": 25
+                "score": 55
             }, {
                 "name": "Docker",
-                "score": 5
-            }, {
-                "name": "Heroku",
-                "score": 5
+                "score": 10
             }]
         }, {
             "name": "Graphics and Multimedia",

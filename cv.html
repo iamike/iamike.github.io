@@ -13,9 +13,7 @@ group: navigation
 		<div class="well talkbox right">
 			<div class="arrow hidden-print"></div>
 			<p class="en">An <abbr title="I get a lot experience at Nextdigital" class="initialism">8+ years</abbr> experiences Front-end developer that passionate about research technique and life. </p>
-			<p class="cn">一个有着8年以上前端开发工作经验。 喜欢研究各种最新技术。 热爱生活的一个前端开发。</p>
-			<p class="en">Aim to be a Full-Stack developer,  because of the rapidly developed technology make the boundary between Back-end and Front-end blurred.</p>
-			<p class="cn">随着近些年来技术的发展，前端和后端技术的结合愈加紧密， 正立志成为一名合格的全栈开发。</p>
+			<p class="cn">一个有着8年以上开发工作经验。 喜欢研究各种最新技术。 热爱生活。</p>
 		</div>
 	</div>
 </div>
@@ -30,7 +28,7 @@ group: navigation
 </ol>
 </div>
 <div class="container">
-<h3><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Skill Matrix<sup>2016</sup>: <small>技能表</small></h3>
+<h3><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Skill Matrix<sup>2016</sup>: <small>2016技能表</small></h3>
 <div class=" skill-matrix">
 	{% for skillCategory in site.data.skills.category %}
 	<div class="item">
@@ -70,7 +68,7 @@ group: navigation
     <div class="col-lg-12">
       <ul class="timeline">
 				{% for period in site.data.timeline.period reversed %}
-				<li class = "{% cycle '', 'timeline-inverted' %} {% if forloop.last == true %} last {% endif %}">
+				<li class = "{% cycle '', 'timeline-inverted' %} ">
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="/media/timeline/logo/{{forloop.rindex0}}.jpg" alt="">
           </div>
