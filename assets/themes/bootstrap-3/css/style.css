@@ -213,7 +213,7 @@ ol.assets p {
     padding: 0 30px 20px 20px;
     text-align: left;
     left: 50%;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
