@@ -140,6 +140,7 @@ ol.assets p {
     padding: 4px 0 0 0;
     margin-top: 22px;
     list-style: none;
+    overflow: hidden;
 }
 
 .timeline>li:nth-child(even) {
@@ -168,12 +169,12 @@ ol.assets p {
 
 .timeline>li .timeline-panel {
     position: absolute;
-    width: 41%;
+    left:100px;
+    top:0px;
+    width: 32%;
     padding: 0 20px 20px 30px;
     text-align: right;
     z-index: 2;
-    left:0px;
-    top:0px;
 }
 
 .timeline>li .timeline-panel:before {
@@ -211,10 +212,11 @@ ol.assets p {
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
+    right: 100px;
+    left:auto;
+    top:0px;
     padding: 0 30px 20px 20px;
     text-align: left;
-    left: 50%;
-    padding-left: 120px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
