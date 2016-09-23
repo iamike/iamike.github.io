@@ -69,6 +69,15 @@
                 "score": 100
             }]
         }, {
+            "name": "Template Engine",
+            "detail": [{
+                "name": "Twig",
+                "score": 85
+            }, {
+                "name": "Blade",
+                "score": 75
+            }]
+        }, {
             "name": "Animate",
             "detail": [{
                 "name": "GreenSock|GSAP",
@@ -77,7 +86,7 @@
                 "name": "CreateJS",
                 "score": 75
             }]
-        },{
+        }, {
             "name": "MVC",
             "detail": [{
                 "name": "Angular",
