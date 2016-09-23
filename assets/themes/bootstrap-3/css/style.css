@@ -140,7 +140,6 @@ ol.assets p {
     padding: 4px 0 0 0;
     margin-top: 22px;
     list-style: none;
-    overflow: hidden;
 }
 
 .timeline>li:nth-child(even) {
@@ -173,6 +172,8 @@ ol.assets p {
     padding: 0 20px 20px 30px;
     text-align: right;
     z-index: 2;
+    left:0px;
+    top:0px;
 }
 
 .timeline>li .timeline-panel:before {
