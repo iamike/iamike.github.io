@@ -60,7 +60,7 @@
       "description": [
         {
           "taskC": "所有前端开发相关的任务",
-          "taskE": "All Front-end issues, from carving template until migration with Back-end."
+          "taskE": "All Front-end issues."
         },
         {
           "taskC": "参与项目的设计和研发",
