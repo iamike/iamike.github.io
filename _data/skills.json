@@ -11,7 +11,7 @@
                 "name": "CSS/CSS3",
                 "score": 100
             }, {
-                "name": "Javascript/ES6",
+                "name": "Javascript",
                 "score": 80
             }, {
                 "name": "PHP/MySQL",
@@ -24,16 +24,16 @@
                 "score": 15
             }, {
                 "name": "Ruby",
-                "score": 40
+                "score": 10
             }]
         }, {
             "name": "Content Management System",
             "detail": [{
                 "name": "Jekyll",
-                "score": 70
+                "score": 65
             }, {
                 "name": "Hexo",
-                "score": 65
+                "score": 60
             }, {
                 "name": "Joomla",
                 "score": 70
@@ -45,10 +45,10 @@
                 "score": 65
             }, {
                 "name": "Umbraco",
-                "score": 30
+                "score": 25
             }, {
                 "name": "Sitecore",
-                "score": 30
+                "score": 20
             }]
         }, {
             "name": "Scaffolding Tools",
@@ -59,7 +59,7 @@
                 "name": "Foundation",
                 "score": 100
             }, {
-                "name": "Backbone",
+                "name": "Vuejs",
                 "score": 100
             }, {
                 "name": "Ionic",
@@ -72,19 +72,19 @@
             "name": "Template Engine",
             "detail": [{
                 "name": "Twig",
-                "score": 85
+                "score": 75
             }, {
                 "name": "Blade",
-                "score": 75
+                "score": 80
             }]
         }, {
             "name": "Animate",
             "detail": [{
                 "name": "GreenSock|GSAP",
-                "score": 100
+                "score": 90
             }, {
                 "name": "CreateJS",
-                "score": 75
+                "score": 65
             }]
         }, {
             "name": "MVC",
