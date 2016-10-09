@@ -14,6 +14,9 @@
                 "name": "Javascript",
                 "score": 70
             }, {
+              "name": "ES6",
+              "score": 30
+            },{
                 "name": "PHP/MySQL",
                 "score": 80
             }, {
@@ -61,6 +64,9 @@
             }, {
                 "name": "Vuejs",
                 "score": 100
+            }, {
+              "name": "React",
+              "score": 10
             }, {
                 "name": "Ionic",
                 "score": 70
