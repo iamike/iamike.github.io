@@ -54,7 +54,7 @@
                 "score": 20
             }]
         }, {
-            "name": "Scaffolding Tools",
+            "name": "FE Scaffolding",
             "detail": [{
                 "name": "Vuejs",
                 "score": 40
@@ -67,13 +67,13 @@
             }, {
                 "name": "React",
                 "score": 40
+            },{
+                "name": "jQuery-Mobile",
+                "score": 70
             }]
         }, {
             "name": "UI Framework",
-            "detail": [{
-                "name": "jQuery/jQuery-Mobile",
-                "score": 70
-            }, {
+            "detail": [ {
                 "name": "Bootstrap",
                 "score": 100
             }, {
