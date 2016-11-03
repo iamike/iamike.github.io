@@ -14,9 +14,9 @@
                 "name": "Javascript",
                 "score": 70
             }, {
-              "name": "ES6",
-              "score": 30
-            },{
+                "name": "ES6",
+                "score": 30
+            }, {
                 "name": "PHP/MySQL",
                 "score": 80
             }, {
@@ -56,22 +56,25 @@
         }, {
             "name": "Scaffolding Tools",
             "detail": [{
+                "name": "Vuejs",
+                "score": 40
+            }, {
+                "name": "Angular",
+                "score": 60
+            }, {
+                "name": "React",
+                "score": 40
+            }]
+        }, {
+            "name": "UI Framework",
+            "detail": [{
+                "name": "jQuery/jQuery-Mobile",
+                "score": 70
+            }, {
                 "name": "Bootstrap",
                 "score": 100
             }, {
                 "name": "Foundation",
-                "score": 100
-            }, {
-                "name": "Vuejs",
-                "score": 40
-            }, {
-              "name": "React",
-              "score": 10
-            }, {
-                "name": "Ionic",
-                "score": 20
-            }, {
-                "name": "jQuery/jQuery-Mobile",
                 "score": 100
             }]
         }, {
@@ -95,9 +98,6 @@
         }, {
             "name": "MVC",
             "detail": [{
-                "name": "Angular",
-                "score": 60
-            }, {
                 "name": "Laravel",
                 "score": 70
             }]
@@ -121,7 +121,7 @@
                 "score": 65
             }, {
                 "name": "Webpack",
-                "score": 1
+                "score": 30
             }]
         }, {
             "name": "Cloud Service",
