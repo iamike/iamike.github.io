@@ -88,12 +88,13 @@ group: navigation
 									{% endfor %}
 								</ul>
 								{% if period.site != "" or period.projects != ""%}
+								<b class="visible-print-inline">{{ period.projects }}</b>
 								<div class="btn-group btn-group-xs hidden-print" role="group" aria-label="...">
 									{% if period.site != "" %}
 											<a class="btn btn-default" href="{{ period.site }}" target="_blank"> <i class="glyphicon glyphicon-link"></i> Company</a>
 									{% endif %}
 									{% if period.projects != "" %}
-											<a class="btn btn-default" href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> Projects</a>
+											<a class="btn btn-default" href="{{ period.projects }}" target="_blank"> <i class="glyphicon glyphicon-briefcase"></i> Projects </a>
 									{% endif %}
 								</div>
 								{% endif %}

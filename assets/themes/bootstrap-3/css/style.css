@@ -566,10 +566,10 @@ ol.assets p {
 @media all {
 	.page-break	{ display: none; }
   .visible-print-inline {display: none;}
-
 }
 
 @media print {
+
     .visible-print-inline {display: inline;}
     .container {
       page-break-inside: avoid;
