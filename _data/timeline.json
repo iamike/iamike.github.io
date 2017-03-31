@@ -107,6 +107,19 @@
       ]
     },
     {
+      "name": "Digitalwant",
+      "start": "2016/Jun/1",
+      "end": "2016/Oct/30",
+      "site": "http://www.digitalwant.com",
+      "projects": "http://www.digitalwant.com",
+      "description": [
+        {
+          "taskC": "自己公司的官网",
+          "taskE": "Offical Website of my own company"
+        }
+      ]
+    },
+    {
       "name": "育宁-成长宝（Yuning - webApp）",
       "start": "2016/Nov/1",
       "end": "2017/Mar/30",
