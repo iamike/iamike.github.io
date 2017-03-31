@@ -105,6 +105,19 @@
           "taskE": "Developing for both Front-end and Back-end"
         }
       ]
+    },
+    {
+      "name": "育宁-成长宝（Yuning - webApp）",
+      "start": "2016/Nov/1",
+      "end": "2017/Mar/30",
+      "site": "http://www.czbapp.com",
+      "projects": "http://www.czbapp.com",
+      "description": [
+        {
+          "taskC": "官网",
+          "taskE": "Offical Website"
+        }
+      ]
     }
   ]
 }
