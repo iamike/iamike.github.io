@@ -206,6 +206,9 @@
             }, {
                 "name": "Team Foundation Server",
                 "score": 90
+            }, {
+                "name": "GitLab",
+                "score": 80
             }]
         }
 
