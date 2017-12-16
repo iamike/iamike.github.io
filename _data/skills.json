@@ -105,12 +105,6 @@
                 "score": 65
             }]
         }, {
-            "name": "MVC",
-            "detail": [{
-                "name": "Laravel",
-                "score": 70
-            }]
-        }, {
             "name": "Full-stack",
             "detail": [{
                 "name": "Django",
@@ -118,6 +112,9 @@
             }, {
                 "name": "MEAN",
                 "score": 30
+            },{
+                "name": "Laravel",
+                "score": 70
             }]
 
         }, {
