@@ -12,9 +12,9 @@
                 "score": 90
             }, {
                 "name": "ES5",
-                "score": 70
+                "score": 80
             }, {
-                "name": "ES6",
+                "name": "ES6+",
                 "score": 75
             }, {
                 "name": "PHP/MySQL",
@@ -24,7 +24,7 @@
                 "score": 70
             }, {
                 "name": "Python",
-                "score": 15
+                "score": 60
             }, {
                 "name": "Ruby",
                 "score": 10
@@ -111,7 +111,7 @@
             "name": "Full-stack",
             "detail": [{
                 "name": "Django",
-                "score": 25
+                "score": 65
             }, {
                 "name": "MEAN",
                 "score": 30
@@ -127,10 +127,10 @@
                 "score": 65
             }, {
                 "name": "Webpack",
-                "score": 30
+                "score": 50
             }]
         }, {
-            "name": "Cloud Service",
+            "name": "Cloud/Container Service",
             "detail": [{
                 "name": "github",
                 "score": 90
@@ -145,7 +145,7 @@
                 "score": 55
             }, {
                 "name": "Docker",
-                "score": 10
+                "score": 50
             }]
         }, {
             "name": "Graphics and Multimedia",
