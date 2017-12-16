@@ -80,8 +80,11 @@
                 "name": "Foundation",
                 "score": 90
             },{
-            "name": "Semantic UI",
+                "name": "Semantic UI",
                 "score": 90
+            },{
+                "name": "Material related",
+                "score": 60
             }]
         }, {
             "name": "Template Engine",
