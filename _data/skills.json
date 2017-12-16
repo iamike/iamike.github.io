@@ -110,15 +110,12 @@
                 "name": "Django",
                 "score": 65
             }, {
-                "name": "MEAN",
-                "score": 30
-            },{
                 "name": "Laravel",
                 "score": 70
             }]
 
         }, {
-            "name": "Build Tools",
+            "name": "FE workflow tools",
             "detail": [{
                 "name": "Gulp",
                 "score": 75
@@ -135,7 +132,7 @@
                 "name": "github",
                 "score": 90
             }, {
-                "name": "Firebase",
+                "name": "Firebase/wilddog",
                 "score": 70
             }, {
                 "name": "Aliyun/Tecent",
