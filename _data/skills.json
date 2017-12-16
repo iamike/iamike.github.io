@@ -128,10 +128,7 @@
             }]
         }, {
             "name": "Cloud/Container Service",
-            "detail": [{
-                "name": "github",
-                "score": 90
-            }, {
+            "detail": [ {
                 "name": "Firebase/wilddog",
                 "score": 70
             }, {
@@ -195,6 +192,9 @@
         }, {
             "name": "VCS",
             "detail": [{
+                "name": "github",
+                "score": 90
+            },{
                 "name": "Git",
                 "score": 90
             }, {
