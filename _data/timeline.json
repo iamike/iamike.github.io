@@ -131,6 +131,19 @@
           "taskE": "Offical Website"
         }
       ]
+    },
+    {
+      "name": "MEDIA KOBO, INC.(Shanghai Office)",
+      "start": "2018/June/1",
+      "end": "2020/Mar/30",
+      "site": "http://www.mkb.ne.jp",
+      "projects": "http://www.mkb.ne.jp",
+      "description": [
+        {
+          "taskC": "和心医药",
+          "taskE": "Hexin Medical Limited Website"
+        }
+      ]
     }
   ]
 }
