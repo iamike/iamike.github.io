@@ -56,6 +56,9 @@
         }, {
             "name": "FE Scaffolding",
             "detail": [{
+                "name": "Quasar",
+                "score": 80
+            },{
                 "name": "Vue2",
                 "score": 80
             }, {
@@ -68,7 +71,7 @@
                 "name": "React",
                 "score": 40
             },{
-                "name": "jQuery-Mobile",
+                "name": "jQuery based",
                 "score": 70
             }]
         }, {
@@ -115,8 +118,11 @@
             }]
 
         }, {
-            "name": "FE workflow tools",
+            "name": "Tools and Utilities",
             "detail": [{
+                "name": "Docker",
+                "score": 85
+            },{
                 "name": "Gulp",
                 "score": 75
             }, {
@@ -127,18 +133,15 @@
                 "score": 65
             }]
         }, {
-            "name": "Cloud/Container Service",
-            "detail": [ {
-                "name": "Firebase/wilddog",
-                "score": 70
-            }, {
-                "name": "Aliyun/Tecent",
+            "name": "Cloud Service",
+            "detail": [{
+                "name":"Qcloud",
+                "score":85
+            },{
+                "name": "Aliyun",
                 "score": 70
             }, {
                 "name": "AWS",
-                "score": 55
-            }, {
-                "name": "Docker",
                 "score": 60
             }]
         }, {
@@ -169,10 +172,7 @@
                 "score": 70
             }, {
                 "name": "Ubuntu",
-                "score": 65
-            }, {
-                "name": "nginx",
-                "score": 70
+                "score": 80
             }]
         }, {
             "name": "IDE & Enviroment",
