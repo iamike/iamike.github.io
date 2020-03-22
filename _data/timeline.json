@@ -137,11 +137,15 @@
       "start": "2018/June/1",
       "end": "2020/Mar/30",
       "site": "http://www.mkb.ne.jp",
-      "projects": "http://www.mkb.ne.jp",
+      "projects": "http://www.hexin-medical.com",
       "description": [
         {
           "taskC": "和心医药跨境电商系统",
           "taskE": "Hexin Medical Limited Website"
+        },
+        {
+          "taskC": "(受covid-19影响，公司于3月17日宣布解散)",
+          "taskE": "(Company bankrupt because of covid-19)"
         }
       ]
     }
