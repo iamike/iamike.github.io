@@ -68,17 +68,17 @@ group: navigation
     <div class="col-lg-12">
       <ul class="timeline">
 				{% for period in site.data.timeline.period reversed %}
-				<li class = "{% cycle '', 'timeline-inverted' %} ">
+				<li class = "{% cycle '', 'timeline-inverted' %} "  {{period.style}}>
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="/media/timeline/logo/{{forloop.rindex0}}.jpg" alt="">
           </div>
-          <div class="timeline-panel">
+          <div class="timeline-panel" >
             <div class="timeline-heading">
               <h4 class="subheading">{{ period.name }} </h4>
               <h4 >{{period.start}} ~ {{period.end}}</h4>
 							<hr class="hidden-xs">
             </div>
-            <div class="timeline-body ">
+            <div class="timeline-body " >
 								<ul class="text-mute">
 									{% for description in period.description %}
 									<li>

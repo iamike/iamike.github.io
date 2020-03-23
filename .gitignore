@@ -1,5 +1,6 @@
 _site/*
 _theme_packages/*
+.jekyll-cache
 node_modules
 
 Thumbs.db
