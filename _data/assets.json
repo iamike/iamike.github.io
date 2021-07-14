@@ -1,39 +1,39 @@
 {
     "items": [{
-            "en": "I know how to markup HTML/HTML5 tags correctly and semanticly. And I also have patient to play with WCAG standards. ",
+            "en": "I know how to markup HTML/HTML5 tags correctly and semantically. And I also have patience to play with WCAG standards. ",
             "ch": "能充分理解HTML/HTML5，并正确的使用他们。如果你对WCAG标准也有兴趣，我也能耐心的实现。"
         },
         {
-            "en": "I using Webpack/Grunt/Gulp to manage/optimize front-end working process. ",
+            "en": "I use Webpack/Grunt/Gulp to manage/optimize front-end working process. ",
             "ch": "会使用Webpack/Grunt/Gulp来管理/优化前端开发流程。"
         },
         {
-            "en": "Not only coding OOP for JavaScript/Python/Java, but also organize the Less/Sass efficiently in such way.",
+            "en": "Not only code OOP for JavaScript/Python/Java, but also organize the Less/Sass efficiently in such a way.",
             "ch": "对像化思维方式编写代码Python/JS/Java，并藉此将sass/less编译出高效的css. "
         },
         {
-            "en": "Familiar the technology that outside of GFW: Container service like Docker, Real-time database like Firebase, MVC framework like Django/Laravel/Rails,etc.",
+            "en": "Familiar with the technology that outside of GFW: Container service like Docker, Real-time database like Firebase, MVC framework like Django/Laravel/Rails,etc.",
             "ch": "熟悉国外的一些先进技术: Docker容器,Firebase云端实时数据服务, Django/Laravel/Rails的MVC框架."
         },
         {
-            "en": "I like responsive website and developed a lot of projects that using SVG/CANVAS.",
+            "en": "I like responsive website and developing a lot of projects that use SVG/CANVAS.",
             "ch": "喜欢响应式网站, 用过svg/canvas开发过一些项目。"
         },
         {
-            "en": "I aslo interested in data science. Tensorflow, Numpy, Pandas...",
+            "en": "I am also interested in data science. Tensorflow, Numpy, Pandas...",
             "ch": "在自学数据分析，Tensorflow, Numpy, Pandas..."
         },
         {
-            "en": "Not only Front-end, but also coding at Back-end, favorite PHP, interested in Python and Ruby.",
+            "en": "Not only Front-end, but also coding at Back-end, perfer Python, interested in PHP and Ruby.",
             "ch": "不仅仅前端，我也会写后端代码, 比较喜欢Python, 对PHP和Ruby也有兴趣。"
         },
 
       	{
-      		"en": "Take care of cross browser issues that makes me survived from 'IE6 age'.",
+      		"en": "Take care of cross browser issues that make me survive from 'IE6 age'.",
       		"ch": "我很注重兼容性，甚至IE6也难不倒我。"
       	},
       	{
-      		"en": "Respect the team works, so write comment and fix bugs cautiously.",
+      		"en": "Fix bugs and write comments cautiously, respect the team works.",
       		"ch": "我明白团队的重要性，所以写注释, 修bug比较严谨。"
       	},
         {
