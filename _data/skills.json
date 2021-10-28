@@ -1,213 +1,229 @@
 {
-    "category": [{
-            "name": "Core Expertise",
-            "detail": [{
-                "name": "XHTML/HTML5",
-                "score": 90
-            }, {
-                "name": "LESS/SCSS",
-                "score": 90
-            }, {
-                "name": "CSS/CSS3",
-                "score": 90
-            }, {
-                "name": "ES5",
-                "score": 80
-            }, {
-                "name": "ES6+",
-                "score": 75
-            }, {
-                "name": "PHP/MySQL",
-                "score": 80
-            }, {
-                "name": "Nodejs/NoSQL",
-                "score": 70
-            }, {
-                "name": "Python",
-                "score": 60
-            }, {
-                "name": "Ruby",
-                "score": 10
-            }]
-        }, {
-            "name": "Content Management System",
-            "detail": [{
-                "name": "Jekyll",
-                "score": 65
-            }, {
-                "name": "Hexo",
-                "score": 60
-            }, {
-                "name": "Joomla",
-                "score": 70
-            }, {
-                "name": "OctoberCMS",
-                "score": 75
-            }, {
-                "name": "WordPress",
-                "score": 65
-            }, {
-                "name": "Umbraco",
-                "score": 25
-            }, {
-                "name": "Sitecore",
-                "score": 20
-            }]
-        }, {
-            "name": "FE Scaffolding",
-            "detail": [{
-                "name": "Quasar",
-                "score": 80
-            },{
-                "name": "Vue2",
-                "score": 80
-            }, {
-                "name": "AngularJs",
-                "score": 60
-            }, {
-                "name": "Angular2-4-?",
-                "score": 20
-            }, {
-                "name": "React",
-                "score": 40
-            },{
-                "name": "jQuery based",
-                "score": 70
-            }]
-        }, {
-            "name": "UI Framework",
-            "detail": [ {
-                "name": "Bootstrap",
-                "score": 100
-            }, {
-                "name": "Foundation",
-                "score": 90
-            },{
-                "name": "Semantic UI",
-                "score": 90
-            },{
-                "name": "Material related",
-                "score": 60
-            }]
-        }, {
-            "name": "Template Engine",
-            "detail": [{
-                "name": "Twig",
-                "score": 75
-            }, {
-                "name": "Blade",
-                "score": 80
-            }]
-        }, {
-            "name": "Animate",
-            "detail": [{
-                "name": "GreenSock|GSAP",
-                "score": 90
-            }, {
-                "name": "CreateJS",
-                "score": 65
-            }]
-        }, {
-            "name": "Full-stack",
-            "detail": [{
-                "name": "Django",
-                "score": 65
-            }, {
-                "name": "Laravel",
-                "score": 70
-            }]
+  "category": [{
+      "name": "Core Expertise",
+      "detail": [{
+        "name": "XHTML/HTML5/CSS/CSS3/LESS/SCSS",
+        "score": 90
+      }, {
+        "name": "JavaScript/ES6+/TypeScript/Node",
+        "score": 70
+      }, {
+        "name": "Java",
+        "score": 90
+      }, {
+        "name": "Python",
+        "score": 60
+      },  {
+        "name": "PHP",
+        "score": 80
+      }, {
+        "name": "Ruby",
+        "score": 10
+      }]
+    }, {
+      "name": "Content Management System",
+      "detail": [{
+        "name": "Jekyll",
+        "score": 65
+      }, {
+        "name": "Joomla",
+        "score": 70
+      }, {
+        "name": "OctoberCMS",
+        "score": 75
+      }, {
+        "name": "WordPress",
+        "score": 65
+      }, {
+        "name": "Umbraco",
+        "score": 25
+      }]
+    }, {
+      "name": "FE Scaffolding",
+      "detail": [{
+        "name": "Quasar",
+        "score": 80
+      }, {
+        "name": "Vue",
+        "score": 80
+      }, {
+        "name": "Angular",
+        "score": 60
+      }, {
+        "name": "React",
+        "score": 40
+      }, {
+        "name": "jQuery",
+        "score": 70
+      }]
+    }, {
+      "name": "UI Framework",
+      "detail": [{
+        "name": "Bootstrap",
+        "score": 100
+      }, {
+        "name": "Foundation",
+        "score": 90
+      }, {
+        "name": "Semantic UI",
+        "score": 90
+      }]
+    }, {
+      "name": "Template Engine",
+      "detail": [{
+        "name": "Twig",
+        "score": 75
+      }, {
+        "name": "Blade",
+        "score": 80
+      }]
+    }, {
+      "name": "Animate",
+      "detail": [{
+        "name": "GreenSock|GSAP",
+        "score": 90
+      }, {
+        "name": "CreateJS",
+        "score": 65
+      }]
+    }, {
+      "name": "Open-source Web Framework",
+      "detail": [{
+        "name": "Django",
+        "score": 65
+      }, {
+        "name": "Laravel",
+        "score": 70
+      }]
+    }, {
+      "name": "Spring Framework",
+      "detail": [{
+        "name": "SpringBoot",
+        "score": 80
+      }]
+    },
+    {
+      "name": "Emulators",
+      "detail": [{
+        "name": "Docker/Vagrant",
+        "score": 75
+      }]
+    },
+    {
+      "name": "Tools and Utilities",
+      "detail": [ {
+        "name": "Gulp/Grunt/Webpack",
+        "score": 65
+      }]
+    }, {
+      "name": "Cloud Service",
+      "detail": [{
+        "name": "Qcloud",
+        "score": 85
+      }, {
+        "name": "Aliyun",
+        "score": 70
+      }, {
+        "name": "AWS",
+        "score": 60
+      }]
+    },
+      {
+       "name": "Stream Live Tools",
+       "detail": [{
+         "name": "OBS",
+         "score": 60
+       }, {
+         "name": "TicTok(PC)",
+         "score": 70
+       }]
+     },
+     {
+      "name": "Media Editor",
+      "detail": [{
+        "name": "Final Cut Pro",
+        "score": 97
+      },{
+        "name": "Flash/Animate/Motion",
+        "score": 80
+      },{
+        "name": "AfterEffect",
+        "score": 97
+      }]
+    },
+    {
+      "name": "Graphics and Printworks",
+      "detail": [{
+        "name": "Photoshop",
+        "score": 97
+      }, {
+        "name": "Illustrator",
+        "score": 80
+      }, {
+        "name": "Indesign",
+        "score": 60
+      }]
+    }, {
+      "name": "Operation System",
+      "detail": [{
+        "name": "WindowsServer",
+        "score": 10
+      }, {
+        "name": "SynologyNasOperatingSystem(DSM)",
+        "score": 70
+      }, {
+        "name": "Centos",
+        "score": 70
+      }, {
+        "name": "Ubuntu",
+        "score": 80
+      },{
+        "name": "Raspberry Pi OS",
+        "score": 70
+      }]
+    }, {
+        "name":"IOT",
+        "detail":[
+          {
+            "name":"Pi4",
+            "score":50
+          },
+          {
+            "name":"aduno",
+            "score":50
+          }
+        ]
+    },{
+      "name": "IDEs",
+      "detail": [{
+        "name": "IntelliJ/PhpStorm/PyCharm(Jetbrains Community Edition Products)",
+        "score": 60
+      }, {
+        "name": "Atom",
+        "score": 90
+      }, {
+        "name": "SublimeText",
+        "score": 80
+      }]
+    }, {
+      "name": "VCS",
+      "detail": [{
+        "name": "Github",
+        "score": 90
+      }, {
+        "name": "Git",
+        "score": 90
+      }, {
+        "name": "Subversion",
+        "score": 70
+      }, {
+        "name": "Team Foundation Server",
+        "score": 90
+      }, {
+        "name": "GitLab",
+        "score": 80
+      }]
+    }
 
-        }, {
-            "name": "Tools and Utilities",
-            "detail": [{
-                "name": "Docker",
-                "score": 85
-            },{
-                "name": "Gulp",
-                "score": 75
-            }, {
-                "name": "Grunt",
-                "score": 65
-            }, {
-                "name": "Webpack",
-                "score": 65
-            }]
-        }, {
-            "name": "Cloud Service",
-            "detail": [{
-                "name":"Qcloud",
-                "score":85
-            },{
-                "name": "Aliyun",
-                "score": 70
-            }, {
-                "name": "AWS",
-                "score": 60
-            }]
-        }, {
-            "name": "Graphics and Multimedia",
-            "detail": [{
-                "name": "Photoshop",
-                "score": 97
-            }, {
-                "name": "Illustrator",
-                "score": 80
-            }, {
-                "name": "Flash/Animate CC",
-                "score": 75
-            }, {
-                "name": "Indesign",
-                "score": 60
-            }, {
-                "name": "AnimateEdge CC",
-                "score": 40
-            }]
-        }, {
-            "name": "Server Management",
-            "detail": [{
-                "name": "Windows Server",
-                "score": 60
-            }, {
-                "name": "Centos 7",
-                "score": 70
-            }, {
-                "name": "Ubuntu",
-                "score": 80
-            }]
-        }, {
-            "name": "IDE & Enviroment",
-            "detail": [{
-                "name": "ATOM",
-                "score": 90
-            }, {
-                "name": "phpStorm",
-                "score": 70
-            }, {
-                "name": "sublimeText",
-                "score": 80
-            }, {
-                "name": "vagrant",
-                "score": 80
-            }]
-        }, {
-            "name": "VCS",
-            "detail": [{
-                "name": "github",
-                "score": 90
-            },{
-                "name": "Git",
-                "score": 90
-            }, {
-                "name": "Subversion",
-                "score": 70
-            }, {
-                "name": "Team Foundation Server",
-                "score": 90
-            }, {
-                "name": "GitLab",
-                "score": 80
-            }]
-        }
-
-    ]
+  ]
 }

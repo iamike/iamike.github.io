@@ -1,5 +1,10 @@
 {
-    "items": [{
+    "items": [
+        {
+            "en": "Not only code OOP for Java/Python/JavaScript, but also organize the Less/Sass efficiently in such a way.",
+            "ch": "对像化思维方式编写代码Python/JS/Java，并藉此将sass/less编译出高效的css. "
+        },
+        {
             "en": "I know how to markup HTML/HTML5 tags correctly and semantically. And I also have patience to play with WCAG standards. ",
             "ch": "能充分理解HTML/HTML5，并正确的使用他们。如果你对WCAG标准也有兴趣，我也能耐心的实现。"
         },
@@ -8,11 +13,7 @@
             "ch": "会使用Webpack/Grunt/Gulp来管理/优化前端开发流程。"
         },
         {
-            "en": "Not only code OOP for JavaScript/Python/Java, but also organize the Less/Sass efficiently in such a way.",
-            "ch": "对像化思维方式编写代码Python/JS/Java，并藉此将sass/less编译出高效的css. "
-        },
-        {
-            "en": "Familiar with the technology that outside of GFW: Container service like Docker, Real-time database like Firebase, MVC framework like Django/Laravel/Rails,etc.",
+            "en": "Familiar with the CI/CD and also Container service like Docker, Real-time database like Firebase, MVC framework like Django/Laravel/Rails,etc.",
             "ch": "熟悉国外的一些先进技术: Docker容器,Firebase云端实时数据服务, Django/Laravel/Rails的MVC框架."
         },
         {
@@ -20,7 +21,7 @@
             "ch": "喜欢响应式网站, 用过svg/canvas开发过一些项目。"
         },
         {
-            "en": "I am also interested in data science. Tensorflow, Numpy, Pandas...",
+            "en": "I am also interested in AI and data science. Tensorflow, Numpy, Pandas...",
             "ch": "在自学数据分析，Tensorflow, Numpy, Pandas..."
         },
         {

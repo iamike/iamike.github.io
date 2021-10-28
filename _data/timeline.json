@@ -165,6 +165,28 @@
           "taskE": "(Company bankrupt at 2020 Mar.17, because of covid-19 effect.)"
         }
       ]
+    },
+    {
+      "name": "Dechuan Industrial Automation",
+      "start": "2020/June/1",
+      "end": "-",
+      "style": "style='min-height:275px;'",
+      "site": "http://www.dechuan.com",
+      "projects": "http://www.digitalwant.com/project/list",
+      "description": [
+        {
+          "taskC": "负责对接联合利华中国有限公司（合肥）MES系统中部份配方下载及移动坦克项目",
+          "taskE": "Unilever Services He Fei Co Ltd",
+        },
+        {
+          "taskC": "永丰余造纸(扬州)有限公司",
+          "taskE": "Yongfengyu Zaozhi （Yangzhou） Limited Company",
+        },
+        {
+          "taskC": "永丰余纸业(南京)有限公司",
+          "taskE": "Yongfengyu Zaozhi （Nanjing） Limited Company",
+        }
+      ]
     }
   ]
 }
